@@ -16,6 +16,7 @@ assets/
 babel.config.js
 package.json
 package-lock.json 
+.jshintrc
 
 # macOS
 .DS_Store

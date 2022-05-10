@@ -96,6 +96,7 @@ import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native'
 import {createStackNavigator} from '@react-navigation/stack'
+
 import Bienvenida from './screens/Bienvenida'
 import Registro from './screens/Registro'
 import Login from './screens/Login'
@@ -105,19 +106,18 @@ import MapScreen from './screens/MapScreen'
 import FavoritesPlaces from './screens/FavoritesPlaces'
 
 
-import Bienvenida from './screens/Bienvenida'
 const Stack = createStackNavigator()
 
 function myStack(){
   return (
     <Stack.Navigator>
-      <Stack.Screen name={Bienvenida} component={Bienvenida}></Stack.Screen>
-      <Stack.Screen name={Registro} component={Registro}></Stack.Screen>
-      <Stack.Screen name={Login} component={Login}></Stack.Screen>
-      <Stack.Screen name={Inicio} component={Inicio}></Stack.Screen>
-      <Stack.Screen name={PlaceInfo} component={PlaceInfo}></Stack.Screen>
-      <Stack.Screen name={MapScreen} component={MapScreen}></Stack.Screen>
-      <Stack.Screen name={FavoritesPlaces} component={FavoritesPlaces}></Stack.Screen>
+      <Stack.Screen name={Bienvenida} component={Bienvenida}/>
+      <Stack.Screen name={Registro} component={Registro}/>
+      <Stack.Screen name={Login} component={Login}/>
+      <Stack.Screen name={Inicio} component={Inicio}/>
+      <Stack.Screen name={PlaceInfo} component={PlaceInfo}/>
+      <Stack.Screen name={MapScreen} component={MapScreen}/>
+      <Stack.Screen name={FavoritesPlaces} component={FavoritesPlaces}/>
     </Stack.Navigator>
   )
 }
