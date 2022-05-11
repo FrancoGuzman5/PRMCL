@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /*/import React, {useState} from "react";
 import { Text, View, StyleSheet, TouchableOpacity, Alert, Image } from "react-native";
 import * as ImagePicker from 'expo-image-picker'
@@ -30,9 +31,6 @@ const App = () => {
     }
     await Sharing.shareAsync(selectedImage.localUri);
   }
-
-
-  
 
   return (
     <View style={styles.container}>
@@ -91,33 +89,38 @@ const styles = StyleSheet.create({
 });
 export default App; */
 
+//Comienzo de app
+import { Logs } from 'expo';
 import { StatusBar } from "expo-status-bar";
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import {NavigationContainer} from '@react-navigation/native'
-import {createStackNavigator} from '@react-navigation/stack'
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
 
-import Bienvenida from './screens/Bienvenida'
-import Registro from './screens/Registro'
-import Login from './screens/Login'
-import Inicio from './screens/Inicio'
-import PlaceInfo from './screens/PlaceInfo'
-import MapScreen from './screens/MapScreen'
-import FavoritesPlaces from './screens/FavoritesPlaces'
+//Pantallas de la app por orden
+import Bienvenida from './screens/Bienvenida.js'
+import Registro from './screens/Registro.js'
+import Login from './screens/Login.js'
+import Inicio from './screens/Inicio.js'
+import PlaceInfo from './screens/PlaceInfo.js'
+import MapScreen from './screens/MapScreen.js'
+import FavoritePlaces from './screens/FavoritePlaces.js'
 
+Logs.disableExpoCliLogging(); //solucion a un error de despliegue en Android Studio
 
 const Stack = createStackNavigator()
 
-function myStack(){
+//Pantallass ordenadas por orden de muestra, es decir, visualización
+function MyStack(){
   return (
     <Stack.Navigator>
-      <Stack.Screen name={Bienvenida} component={Bienvenida}/>
-      <Stack.Screen name={Registro} component={Registro}/>
-      <Stack.Screen name={Login} component={Login}/>
-      <Stack.Screen name={Inicio} component={Inicio}/>
-      <Stack.Screen name={PlaceInfo} component={PlaceInfo}/>
-      <Stack.Screen name={MapScreen} component={MapScreen}/>
-      <Stack.Screen name={FavoritesPlaces} component={FavoritesPlaces}/>
+      <Stack.Screen name="Bienvenida" component={Bienvenida}/>
+      <Stack.Screen name="Registro" component={Registro}/>
+      <Stack.Screen name="Login" component={Login}/>
+      <Stack.Screen name="Inicio" component={Inicio}/>
+      <Stack.Screen name="PlaceInfo" component={PlaceInfo}/>
+      <Stack.Screen name="MapScreen" component={MapScreen}/>
+      <Stack.Screen name="FavoritePlaces" component={FavoritePlaces} />
     </Stack.Navigator>
   )
 }
@@ -125,7 +128,7 @@ function myStack(){
 export default function App(){
   return (
     <NavigationContainer>
-
+      <MyStack/>
     </NavigationContainer>
   );
 }
