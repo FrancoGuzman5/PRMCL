@@ -97,6 +97,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
+
 //Pantallas de la app por orden
 import Bienvenida from './screens/Bienvenida.js'
 import Registro from './screens/Registro.js'
@@ -110,12 +111,12 @@ Logs.disableExpoCliLogging(); //solucion a un error de despliegue en Android Stu
 
 const Stack = createStackNavigator()
 
-//Pantallass ordenadas por orden de muestra, es decir, visualización
+//Pantallas ordenadas por orden de muestra, es decir, visualización
 function MyStack(){
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Bienvenida" component={Bienvenida}/>
       <Stack.Screen name="Registro" component={Registro}/>
+      <Stack.Screen name="Bienvenida" component={Bienvenida}/>
       <Stack.Screen name="Login" component={Login}/>
       <Stack.Screen name="Inicio" component={Inicio}/>
       <Stack.Screen name="PlaceInfo" component={PlaceInfo}/>

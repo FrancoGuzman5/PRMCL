@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {View, Text} from 'react-native';
 
 const Bienvenida = () => { 
@@ -8,5 +8,6 @@ const Bienvenida = () => {
         </View>
     )
 }
+
 
 export default Bienvenida
