@@ -1,5 +1,7 @@
 import React from 'react';
-import {View, Text, TouchableOpacity} from 'react-native';
+import {View, Text, TouchableOpacity, TextInput, Button} from 'react-native';
+import {ScrollView} from 'react-native-web';
+
 
 const Login = () => { 
     return (

@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import { Button, ScrollView, TextInput } from 'react-native-web';
-
-const Registro = () => { 
+import firebase from '../database/firebase';
+const Registro = (props) => { 
 
     const [state, setState] = useState({
         name: '',
@@ -13,6 +13,25 @@ const Registro = () => {
 
     const handleChangeText = (name, value) => {
         setState({...state, [name]:value })
+    }
+
+    const guardarUsuario = async () => {
+        if (state.name === '' || state.email === '' || 
+        state.password === '' || state.rePassword === ''){
+            alert('Rellene todos los campos porfavor')
+        }else {
+            try{
+                await firebase.db.collection('users').add({
+                    name: state.name,
+                    email: state.email,
+                    password: state.password,
+                    rePassword: state.rePassword,
+                })
+                props.navigation.navigate('Login')
+            } catch (error) {
+                console.log(error);
+            }    
+        }
     }
 
     return (
@@ -34,7 +53,7 @@ const Registro = () => {
                 onChangeText={(value) => handleChangeText('rePassword', value)}></TextInput>
             </View>
             <View>
-                <Button title=" Registrarse" onPress={()=> console.log(state)} />
+                <Button title=" Registrarse" onPress={()=> guardarUsuario() } />
             </View>
         </ScrollView>
     )
