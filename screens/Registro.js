@@ -1,23 +1,25 @@
 import React, {useContext, useState} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet, Button, ScrollView, TextInput, Image, ActivityIndicator} from 'react-native';
 import { ImageBackground } from 'react-native';
-import firebase from '../database/firebase';
+import {auth} from '../database/firebase'
 
 const Registro = (props) => { 
 
-    const [state, setState] = useState({
-        name: '',
-        email: '',
-        password: '',
-        rePassword: '',
-    });
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
 
-    const handleChangeText = (name, value) => {
-        setState({...state, [name]:value })
+    const handleSignUp = () =>{
+        auth
+        .createUserWithEmailAndPassword(email,password)
+        .then(userCredentials => {
+            const user = userCredentials.user;
+            console.log(user.email);
+        })
+        .catch(error => alert(error.message))
     }
 
 
-    const guardarUsuario = async () => {
+    /*const guardarUsuario = async () => {
         if (state.name === '' || state.email === '' || 
         state.password === '' || state.rePassword === ''){
             alert('Rellene todos los campos porfavor')
@@ -34,7 +36,7 @@ const Registro = (props) => {
                 console.log(error);
             }    
         }
-    }
+    }*/
 
     return (
         <ImageBackground source={require('../assets/fondoRegistro.jpg')} style={styles.backgroundImage}>    
@@ -44,22 +46,21 @@ const Registro = (props) => {
                 <Text style={styles.titleGroup}>Regístrate</Text>    
 
                 <View style={styles.inputGroup}>
-                    <Text style={styles.textGroup}>Nombre</Text>
-                    <TextInput placeholder="Ingrese su nombre" 
-                    onChangeText={(value) => handleChangeText('name', value)} ></TextInput>
-                </View>
-                <View style={styles.inputGroup}>
                     <Text style={styles.textGroup}>Email</Text>
                     <TextInput placeholder="Ejemplo@gmail.com" 
-                    onChangeText={(value) => handleChangeText('email', value)}></TextInput>
+                    value={email}
+                    onChangeText={text =>setEmail(text)}
+                    ></TextInput>
                 </View>
                 <View style={styles.inputGroup}>
                     <Text style={styles.textGroup}>Contraseña</Text>
                     <TextInput placeholder="Ingrese su contraseña" secureTextEntry={true}
-                    onChangeText={(value) => handleChangeText('password', value)}></TextInput>
+                    value={password}
+                    onChangeText={text => setPassword(text)}
+                    ></TextInput>
                 </View>
                 <View>
-                    <TouchableOpacity style={styles.button} onPress={()=> guardarUsuario() }>
+                    <TouchableOpacity style={styles.button} onPress={handleSignUp}>
                         <Text style={styles.buttonText}>Registrate</Text>
                     </TouchableOpacity>    
                 </View>
@@ -67,7 +68,7 @@ const Registro = (props) => {
                     <Text style={styles.textoTerminos}>Al registrarse estás aceptando los Terminos y condiciones del servicio</Text>
                 </View>
                 <View>
-                    <Text style={styles.haveAccount} onPress={()=>props.navigation.navigate('Login')}>¿Ya tienes una cuenta? Ingresa aquí.</Text>
+                    <Text style={styles.haveAccount} onPress={()=>props.navigation.replace('Login')}>¿Ya tienes una cuenta? Ingresa aquí.</Text>
                 </View>
         </ScrollView>
         </ImageBackground>
@@ -85,7 +86,8 @@ const styles = StyleSheet.create({
     inputGroup: {
         marginBottom: 25,
         borderBottomWidth: 1,
-        borderBottomColor: '#cccccc'
+        borderBottomColor: '#cccccc',
+        marginTop: 10
     },
     textGroup: {
         fontWeight: 'bold',

@@ -1,60 +1,62 @@
 import { color } from '@rneui/base';
-import React, {useContext, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet, Button, ScrollView, TextInput, Image, ActivityIndicator} from 'react-native';
 import { ImageBackground } from 'react-native';
-import firebase from '../database/firebase';
+import { KeyboardAvoidingView } from 'react-native';
+import firebase, { auth } from '../database/firebase';
 
 const Login = (props) => { 
 
-    const [state, setState] = useState({
-        name: '',
-        email: '',
-        password: '',
-        rePassword: '',
-    });
-
-    const handleChangeText = (name, value) => {
-        setState({...state, [name]:value })
-    }
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
 
 
-    const guardarUsuario = async () => {
-        if (state.name === '' || state.email === '' || 
-        state.password === '' || state.rePassword === ''){
-            alert('Rellene todos los campos porfavor')
-        }else {
-            try{
-                await firebase.db.collection('users').add({
-                    name: state.name,
-                    email: state.email,
-                    password: state.password,
-                    rePassword: state.rePassword,
-                })
-                props.navigation.navigate('Registro')
-            } catch (error) {
-                console.log(error);
-            }    
-        }
+    useEffect(()=>{
+        const noRegistrado =
+        auth.onAuthStateChanged(user =>{
+            if (user){
+                props.navigation.replace('Inicio')
+            }
+        })
+
+        return noRegistrado
+    }, [])
+
+    const handleLogin = () => {
+        auth
+        .signInWithEmailAndPassword(email,password)
+        .then(userCredentials => {
+            const user = userCredentials.user;
+            console.log('Logeado con ', user.email);
+        })
+        .catch(error => alert(error.message))
     }
 
     return (
         <ImageBackground source={require('../assets/fondoRegistro.jpg')} style={styles.backgroundImage}>    
     
-        <ScrollView style={styles.container}>
+        <KeyboardAvoidingView style={styles.container}>
 
                 <Text style={styles.titleGroup}>Inicia Sesión</Text>   
                 <View style={styles.inputGroup}>
                     <Text style={styles.textGroup}>Email</Text>
-                    <TextInput placeholder="Ejemplo@gmail.com" 
-                    onChangeText={(value) => handleChangeText('email', value)}></TextInput>
+                    <TextInput 
+                    placeholder="Ejemplo@gmail.com" 
+                    value={email}
+                    onChangeText={text =>setEmail(text)}
+                    />
                 </View>
                 <View style={styles.inputGroup}>
                     <Text style={styles.textGroup}>Contraseña</Text>
-                    <TextInput placeholder="Ingrese su contraseña" secureTextEntry={true}
-                    onChangeText={(value) => handleChangeText('password', value)}></TextInput>
+                    <TextInput 
+                    placeholder="Ingrese su contraseña" 
+                    secureTextEntry={true}
+                    value={password}
+                    onChangeText={text => setPassword(text)}
+                    />
                 </View>
                 <View>
-                    <TouchableOpacity style={styles.button} onPress={()=> props.navigation.navigate('Inicio') }>
+                    <TouchableOpacity style={styles.button} onPress={handleLogin}>
                         <Text style={styles.buttonText}>Continuar</Text>
                     </TouchableOpacity>    
                 </View>
@@ -65,7 +67,7 @@ const Login = (props) => {
                     <Text style={styles.creaCuenta} onPress={()=> props.navigation.navigate('Registro')}>¿Eres nuevo? Crea una cuenta!</Text>
                 </View>
 
-        </ScrollView>
+        </KeyboardAvoidingView>
         </ImageBackground>
     )
 }
@@ -126,7 +128,7 @@ const styles = StyleSheet.create({
     },
     creaCuenta: {
         textAlign: 'center',
-        color: '#0D8211'
+        color: '#056908'
     }
 })
 

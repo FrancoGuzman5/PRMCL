@@ -1,12 +1,12 @@
 //Comienzo de app
 import { Logs } from 'expo';
 import { StatusBar } from "expo-status-bar";
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {StyleSheet, Text, View, Button, ScrollView, TextInput} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
 //Pantallas de la app por orden
@@ -33,11 +33,6 @@ function MyStack(){
       options={{headerShown:false}}
       />
       <Stack.Screen 
-      name="Inicio" 
-      component={MyTabs} 
-      options={{headerShown:false}}
-      />
-      <Stack.Screen 
       name="Login" 
       component={Login} 
       options={{headerShown:false}}
@@ -48,9 +43,13 @@ function MyStack(){
       options={{headerShown:false}}
       />
       <Stack.Screen 
+      name="Inicio" 
+      component={MyTabs} 
+      options={{headerShown:false}}
+      />
+      <Stack.Screen 
       name="PlaceInfo" 
       component={PlaceInfo} 
-      options={{headerShown:false}}
       />
     </Stack.Navigator>
   )
@@ -83,6 +82,32 @@ function MyTabs() {
 export {MyTabs}
 
 export default function App(){
+
+  const [isFirstLaunch, setIsFirstLaunch] = React.useState(null);
+
+  useEffect(()=>{
+    AsyncStorage.getItem('alreadyLaunched').then(value =>{
+      if(value == null){
+        AsyncStorage.setItem('alreadyLaunched', 'true');
+        setIsFirstLaunch(true);
+      } else {
+        setIsFirstLaunch(false);
+      }
+    })
+  }, []);
+
+if (isFirstLaunch === null) {
+  return null;
+} else if ( isFirstLaunch === true) {
+  return (
+    <NavigationContainer>
+      <MyStack/>
+    </NavigationContainer>
+  );
+} else {
+  <Inicio/>
+}
+
   return (
     <NavigationContainer>
       <MyStack/>
