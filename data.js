@@ -1,35 +1,39 @@
 export default [
     {
         id: 1,
-        bg: '#F1C134',
+        bg: '#E9A946',
         color: 'white',
         category: 'Region de Arica y Parinacota',
-        places: ['Parque Nacional Lauca', 'Reserva Nacional Las Vicuñas', 'Monumento Natural Salar de Surire','Monumento Natural Quebrada de Cardones']
+        places: ['Parque Nacional Lauca', 
+        'Reserva Nacional Las Vicuñas', 
+        'Monumento Natural Salar de Surire',
+        'Monumento Natural Quebrada de Cardones'
+        ]
     },
     {
         id: 2,
-        bg: '#F1C134',
+        bg: '#E9A946',
         color: 'white',
         category: 'Region de Tarapacá',
         places: ['Parque Nacional Volcán Isluga','Reserva Nacional Pampa del Tamarugal']
     },
     {
         id: 3,
-        bg: '#F1C134',
+        bg: '#E9A946',
         color: 'white',
         category: 'Region de Antofagasta',
         places:['Parque Nacional Llullaillaco','Parque Nacional Morro Moreno','Reserva Nacional Los Flamencos','Reserva Nacional La Chimba','Monumento Natural La Portada','Monumento Natural Paposo Norte']
     },
     {
         id: 4,
-        bg: '#F1C134',
+        bg: '#E9A946',
         color: 'white',
         category: 'Region de Atacama',
         places: ['Parque Nacional Pan de Azúcar','Parque Nacional Nevado de Tres Cruces', 'Parque Nacional Llanos de Challe','Reserva Nacional Pingüino de Humboldt']
     },
     {
         id: 5,
-        bg: '#F1C134',
+        bg: '#E9A946',
         color: 'white',
         category: 'Region de Coquimbo',
         places: ['Parque Nacional Bosque Fray Jorge','Reserva Nacional Pingüino de Humboldt','Reserva Nacional Las Chinchillas','Monumento Natural Pichasca']

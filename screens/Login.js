@@ -14,8 +14,8 @@ const Login = (props) => {
     useEffect(()=>{
         const noRegistrado =
         auth.onAuthStateChanged(user =>{
-            if (user){
-                props.navigation.replace('Inicio')
+            if (!user){
+                props.navigation.navigate('Login')
             }
         })
 
@@ -26,6 +26,7 @@ const Login = (props) => {
         auth
         .signInWithEmailAndPassword(email,password)
         .then(userCredentials => {
+            props.navigation.replace('Inicio')
             const user = userCredentials.user;
             console.log('Logeado con ', user.email);
         })

@@ -3,7 +3,7 @@ import {SafeAreaView, StyleSheet, View, Text, ScrollView, TouchableOpacity} from
 import data from '../data';
 
 
-const Inicio = () => { 
+const Inicio = (props) => { 
 
     const [currentIndex, setCurrentIndex] = React.useState(null);
 
@@ -32,6 +32,7 @@ const Inicio = () => {
                                     <TouchableOpacity 
                                     key={places} 
                                     style={styles.lugar}
+                                    onPress={()=>{props.navigation.navigate('PlaceInfo')}}
                                     >
                                         <Text 
                                         style={styles.nombreLugar}>
