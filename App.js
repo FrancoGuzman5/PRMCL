@@ -7,6 +7,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 
 //Pantallas de la app por orden
@@ -45,7 +46,7 @@ function MyStack(){
       <Stack.Screen 
       name="Inicio" 
       component={MyTabs} 
-      options={{headerShown:false}}
+      options={{}}
       />
       <Stack.Screen 
       name="PlaceInfo" 
@@ -60,21 +61,40 @@ const Tab = createBottomTabNavigator();
 function MyTabs() {
     return(
         <Tab.Navigator
+        screenOptions={{
+          tabBarActiveTintColor: '#72bb53',
+        }}
         >
             <Tab.Screen 
+            
             name = 'Inicio' 
             component={Inicio} 
-            options={{headerShown:false}}
+            options={{
+              headerShown:false,
+              tabBarIcon: ({color,size}) => {
+                return <MaterialCommunityIcons name="home" size={24} color={color} />
+              }
+            }}
             />
             <Tab.Screen 
             name = 'MapScreen' 
             component={MapScreen} 
-            options={{headerShown:false}}
+            options={{
+              headerShown:false,
+              tabBarIcon: ({color,size}) => {
+                return <MaterialCommunityIcons name="map" size={24} color={color} />
+              }
+            }}
             />
             <Tab.Screen 
             name = 'Favoritos' 
             component={FavoritePlaces} 
-            options={{headerShown:false}}
+            options={{
+              headerShown:false,
+              tabBarIcon: ({color,size}) => {
+                return <MaterialCommunityIcons name="cards-heart" size={24} color={color} />
+              }
+            }}
             />
         </Tab.Navigator>
     )
