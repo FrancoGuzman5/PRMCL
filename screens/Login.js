@@ -16,6 +16,8 @@ const Login = (props) => {
         auth.onAuthStateChanged(user =>{
             if (!user){
                 props.navigation.navigate('Login')
+            }else{
+                props.navigation.replace('Inicio')
             }
         })
 

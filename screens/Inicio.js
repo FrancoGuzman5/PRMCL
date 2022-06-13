@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     region: {
         fontSize: 28,
         fontWeight: '900',
-        letterSpacing: -2.5,
+        letterSpacing: -2.0,
         marginHorizontal: 5,
     },
     nombreLugar:{
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
         backgroundColor:'#ECECEC',
         padding:8,
         marginVertical: 3,
-        borderBottomStartRadius: 20,
+        borderBottomStartRadius: 40,
         borderBottomEndRadius:20,
     }
 });

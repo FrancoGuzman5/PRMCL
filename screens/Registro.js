@@ -9,14 +9,19 @@ const Registro = (props) => {
     const [password, setPassword] = useState('')
 
     const handleSignUp = () =>{
-        var valido = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+        var emailValido = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+        var passValida = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*.,?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,16}$/;
         if (email.length == 0 || email === null){
             Alert.alert('Ingresa un email','Prueba ingresando un correo electrónico cualquiera')
-        }else if(!email.match(valido)){ 
+        }else if(!email.match(emailValido)){ 
             Alert.alert('Ingrese un email válido','Guíese con el ejemplo:\n-ejemplo@gmail.com')
+        }else if (password.length == 0 || password === null){
+            Alert.alert('Ingrese una contraseña, porfavor')
         }else if(password.length < 8){
-            Alert.alert('Contraseña inválida','La contraseña debe tener 8 caracteres como mínimo')
-        }else {
+            Alert.alert('Contraseña inválida','La contraseña debe tener 8 caracteres como mínimo y 16 como máximo')
+        }else if(!password.match(passValida)){
+            Alert.alert('Contraseña inválida','Debe contener al menos una letra mayúscula \nuna letra minúscula \nal menos un dígito \nun caracter especial o símbolo \nningún espacio en blanco')
+        }else{
             auth
             .createUserWithEmailAndPassword(email,password)
             .then({props},userCredentials => {
@@ -24,8 +29,7 @@ const Registro = (props) => {
                 props.navigation.navigate('Login')
             })
             .catch(error => alert(error.message))
-
-    }
+        }
     }
 
 
