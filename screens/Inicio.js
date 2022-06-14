@@ -27,7 +27,8 @@ const Inicio = (props) => {
                             style={[styles.region,{color}]}>
                                 {category}
                             </Text>
-                            {index === currentIndex && <View style={styles.lugaresContainer}>
+                            {index === currentIndex && 
+                            <View style={styles.lugaresContainer}>
                                 {places.map((places) => (
                                     <TouchableOpacity 
                                     key={places} 
@@ -80,7 +81,7 @@ const styles = StyleSheet.create({
     lugar:{
         backgroundColor:'#ECECEC',
         padding:8,
-        marginVertical: 3,
+        marginVertical: 2,
         borderBottomStartRadius: 40,
         borderBottomEndRadius:20,
     }

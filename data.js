@@ -1,6 +1,6 @@
 export default [
     {
-        id: 1,
+        id: 'I',
         bg: '#76D7C4',
         color: 'white',
         category: 'Region de Arica y Parinacota',
@@ -15,7 +15,7 @@ export default [
         }
     },
     {
-        id: 2,
+        id: 'II',
         bg: '#76D7C4',
         color: 'white',
         category: 'Region de Tarapacá',
@@ -26,7 +26,7 @@ export default [
         }
     },
     {
-        id: 3,
+        id: 'III',
         bg: '#76D7C4',
         color: 'white',
         category: 'Region de Antofagasta',
@@ -37,18 +37,18 @@ export default [
         }
     },
     {
-        id: 4,
+        id: 'IV',
         bg: '#76D7C4',
         color: 'white',
         category: 'Region de Atacama',
-        places: ['Parque Nacional Pan de Azúcar','Parque Nacional Nevado de Tres Cruces', 'Parque Nacional Llanos de Challe','Reserva Nacional Pingüino de Humboldt'],
+        places: ['Parque Nacional Pan de Azúcar','Parque Nacional Nevado de Tres Cruces', 'Parque Nacional Llanos de Challe'],
         location: {
             longitude: -27.131888210920927,
             latitude:  -69.94479615473979
         }
     },
     {
-        id: 5,
+        id: 'V',
         bg: '#76D7C4',
         color: 'white',
         category: 'Region de Coquimbo',
@@ -59,7 +59,7 @@ export default [
         }
     },
     {
-        id: 6,
+        id: 'VI',
         bg: '#1ABC9C',
         color: 'white',
         category: 'Region de Valparaíso',
@@ -70,7 +70,7 @@ export default [
         }
     },
     {
-        id: 7,
+        id: 'VII',
         bg: '#1ABC9C',
         color: 'white',
         category: 'Region Metropolitana',
@@ -81,7 +81,7 @@ export default [
         }
     },
     {
-        id: 8,
+        id: 'VIII',
         bg: '#1ABC9C',
         color: 'white',
         category: "Region de O'Higgins",
@@ -92,7 +92,7 @@ export default [
         }
     },
     {
-        id: 9,
+        id: 'IX',
         bg: '#1ABC9C',
         color: 'white',
         category: 'Region del Maule',
@@ -103,7 +103,7 @@ export default [
         }
     },
     {
-        id: 10,
+        id: 'X',
         bg: '#1ABC9C',
         color: 'white',
         category: 'Region de Ñuble',
@@ -114,18 +114,18 @@ export default [
         }
     },
     {
-        id: 11,
+        id: 'XI',
         bg: '#148F77',
         color: 'white',
         category: 'Region del Biobío',
-        places: ['Parque Nacional Laguna del Laja','Parque Nacional Nonguén', 'Reserva Nacional Ralco','Reserva Nacional Isla Nocha','Reserva Nacional Altos de Pemehue'],
+        places: ['Parque Nacional Laguna del Laja','Parque Nacional Nonguén', 'Reserva Nacional Ralco','Reserva Nacional Isla Mocha','Reserva Nacional Altos de Pemehue'],
         location: {
             longitude: -37.31352155349008, 
             latitude: -72.56004563310402
         }
     },
     {
-        id: 12,
+        id: 'XII',
         bg: '#148F77',
         color: 'white',
         category: 'Region de La Araucanía',
@@ -136,7 +136,7 @@ export default [
         }
     },
     {
-        id: 13,
+        id: 'XIII',
         bg: '#148F77',
         color: 'white',
         category: 'Region de Los Ríos',
@@ -147,7 +147,7 @@ export default [
         }
     },
     {
-        id: 14,
+        id: 'XIV',
         bg: '#148F77',
         color: 'white',
         category: 'Region de Los Lagos',
@@ -158,7 +158,7 @@ export default [
         }
     },
     {
-        id: 15,
+        id: 'XV',
         bg: '#148F77',
         color: 'white',
         category: 'Region de Aysén',
@@ -169,7 +169,7 @@ export default [
         }
     },
     {
-        id: 16,
+        id: 'XVI',
         bg: '#148F77',
         color: 'white',
         category: 'Region de Magallanes',
