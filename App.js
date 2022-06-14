@@ -46,11 +46,12 @@ function MyStack(){
       <Stack.Screen 
       name="Inicio" 
       component={MyTabs} 
-      options={{}}
+      options={{headerShown:false}}
       />
       <Stack.Screen 
       name="PlaceInfo" 
-      component={PlaceInfo} 
+      component={PlaceInfo}
+      options={{headerShown:false}} 
       />
     </Stack.Navigator>
   )

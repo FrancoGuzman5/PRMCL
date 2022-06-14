@@ -1,6 +1,7 @@
 import React, {useRef}from 'react';
 import {SafeAreaView, StyleSheet, View, Text, ScrollView, TouchableOpacity} from 'react-native';
 import data from '../data';
+import lugarInfo from '../lugarInfo';
 
 
 const Inicio = (props) => { 
@@ -33,7 +34,7 @@ const Inicio = (props) => {
                                     <TouchableOpacity 
                                     key={places} 
                                     style={styles.lugar}
-                                    onPress={()=>{props.navigation.navigate('PlaceInfo')}}
+                                    onPress={()=>{props.navigation.navigate("PlaceInfo",lugarInfo.region)}}
                                     >
                                         <Text 
                                         style={styles.nombreLugar}>
