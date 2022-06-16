@@ -10,7 +10,7 @@ const lugar = [
         servicios: 'Chucuyo Restaurantes El Payachatas, (abierto todos los días continuado), El Copihue de Oro y restaurante-hospedaje Doña Maty. Parinacota Alojamiento Uta Kala-Don Leo. Chungara Guardería CONAF. Servicios fuera del Área Bencina: Arica Teléfono: Putre Consultorio Público: Putre. Venta de alimentos: Putre, Chucuyo, Parinacota y Chungara. Carabineros: Putre, Chucuyo y Chungara. Informaciones: Arica y Putre.',
         accesos: 'Al parque se accede exclusivamente a través de la carretera internacional Arica-La Paz (Ruta CH-11), la que es transitable todo el año por ser un camino pavimentado.',
         fase: 'Medio impacto sanitario',
-        img:'',
+        img:'https://es.wikipedia.org/wiki/Parque_nacional_Lauca',
     },
     {
         id:2,
