@@ -1296,3 +1296,5 @@ const lugar = [
         fase:'Bajo impacto sanitario',
     },
 ]
+
+export default lugar;
