@@ -87,16 +87,7 @@ function MyTabs() {
               }
             }}
             />
-            <Tab.Screen 
-            name = 'Favoritos' 
-            component={FavoritePlaces} 
-            options={{
-              headerShown:false,
-              tabBarIcon: ({color,size}) => {
-                return <MaterialCommunityIcons name="cards-heart" size={24} color={color} />
-              }
-            }}
-            />
+            
         </Tab.Navigator>
     )
 }

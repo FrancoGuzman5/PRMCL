@@ -5,6 +5,7 @@ import { ImageBackground } from 'react-native';
 import { KeyboardAvoidingView } from 'react-native';
 import firebase, { auth } from '../database/firebase';
 
+
 const Login = (props) => { 
 
     const [email, setEmail] = useState('')
@@ -23,6 +24,7 @@ const Login = (props) => {
 
         return noRegistrado
     }, [])
+
 
     const handleLogin = () => {
         auth
@@ -63,9 +65,7 @@ const Login = (props) => {
                         <Text style={styles.buttonText}>Continuar</Text>
                     </TouchableOpacity>    
                 </View>
-                <View>
-                    <Text style={styles.forgotPass}>¿Olvidaste tu contraseña?</Text>
-                </View>
+
                 <View>
                     <Text style={styles.creaCuenta} onPress={()=> props.navigation.navigate('Registro')}>¿Eres nuevo? Crea una cuenta!</Text>
                 </View>
@@ -130,6 +130,7 @@ const styles = StyleSheet.create({
         marginBottom: 40
     },
     creaCuenta: {
+        marginTop:50,
         textAlign: 'center',
         color: '#056908'
     }

@@ -2,11 +2,15 @@ import React, {useContext, useState} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet, Button, ScrollView, TextInput, Image, ActivityIndicator, Alert} from 'react-native';
 import { ImageBackground } from 'react-native';
 import {auth} from '../database/firebase'
+import { Ionicons } from '@expo/vector-icons';
 
 const Registro = (props) => { 
 
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+    const [rePassword, setRePassword] = useState('')
+    const [isSecure, setIsSecure] = useState(true)
+    const [isSecureSec, setIsSecureSec] = useState(true)
 
     const handleSignUp = () =>{
         var emailValido = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
@@ -21,6 +25,8 @@ const Registro = (props) => {
             Alert.alert('Contraseña inválida','La contraseña debe tener 8 caracteres como mínimo y 16 como máximo')
         }else if(!password.match(passValida)){
             Alert.alert('Contraseña inválida','Debe contener al menos una letra mayúscula \nuna letra minúscula \nal menos un dígito \nun caracter especial o símbolo \nningún espacio en blanco')
+        }else if(password !== rePassword){
+            Alert.alert('Las contraseñas no coinciden')
         }else{
             auth
             .createUserWithEmailAndPassword(email,password)
@@ -68,10 +74,32 @@ const Registro = (props) => {
                 </View>
                 <View style={styles.inputGroup}>
                     <Text style={styles.textGroup}>Contraseña</Text>
-                    <TextInput placeholder="Ingrese su contraseña" secureTextEntry={true}
-                    value={password}
-                    onChangeText={text => setPassword(text)}
-                    ></TextInput>
+                    <View style={styles.passCamp}>
+                        <TextInput placeholder="Ingrese su contraseña" secureTextEntry={isSecure}
+                        value={password}
+                        onChangeText={text => setPassword(text)}
+                        ></TextInput>
+                        <TouchableOpacity onPress={()=>{
+                            setIsSecure((prev)=>!prev)
+                        }}>
+                            <Text style={styles.show}>{isSecure ? 'Mostrar' : 'Ocultar'}</Text>
+                        </TouchableOpacity>
+
+                    </View>
+                </View>
+                <View style={styles.inputGroup}>
+                    <Text style={styles.textGroup}>Repita su contraseña</Text>
+                    <View style={styles.passCamp}>
+                        <TextInput placeholder="Reingrese su contraseña" secureTextEntry={isSecureSec}
+                        value={rePassword}
+                        onChangeText={text => setRePassword(text)}
+                        ></TextInput>
+                        <TouchableOpacity onPress={()=>{
+                            setIsSecureSec((prev)=>!prev)
+                        }}>
+                            <Text style={styles.show}>{isSecureSec ? 'Mostrar' : 'Ocultar'}</Text>
+                        </TouchableOpacity>
+                    </View>
                 </View>
                 <View>
                     <TouchableOpacity style={styles.button} onPress={handleSignUp}>
@@ -96,7 +124,9 @@ const styles = StyleSheet.create({
         flex: 1,
         padding: 35,
     },
-    
+    show:{
+        color: '#808080'
+    },
     inputGroup: {
         marginBottom: 25,
         borderBottomWidth: 1,
@@ -114,6 +144,10 @@ const styles = StyleSheet.create({
         paddingBottom: 40,
         marginBottom:20,
 
+    },
+    passCamp:{
+        flexDirection: 'row',
+        justifyContent: 'space-between'
     },
     backgroundImage: {
         
