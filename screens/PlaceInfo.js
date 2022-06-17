@@ -37,36 +37,37 @@ const PlacesInfo = ({route, navigation}) => {
                                         
                                     </View>
                                     <Text key={descripcion} style={styles.descLugar}>{descripcion}</Text>
-                                    <List.Section title="Información del parque">
+                                    <List.Section title="Información del parque" >
                                         <List.Accordion
                                             title="Horarios"
-                                            left={props => <List.Icon {...props} icon="clock-time-three-outline" />}>
-                                            <Text key={horarios}>{horarios}</Text>
+                                            left={props => <List.Icon {...props} icon="clock-time-three-outline" 
+                                            />} >
+                                            <Text key={horarios} style={styles.caractInfo}>{horarios}</Text>
                                         </List.Accordion>
                                         <List.Accordion
                                             title="Tarifas"
                                             left={props => <List.Icon {...props} icon="cash" />}>
-                                            <Text key={tarifas}>{tarifas}</Text>
+                                            <Text key={tarifas} style={styles.caractInfo}>{tarifas}</Text>
                                         </List.Accordion>
                                         <List.Accordion
                                             title="Senderos"
                                             left={props => <List.Icon {...props} icon="pine-tree" />}>
-                                            <Text key={senderos}>{senderos}</Text>
+                                            <Text key={senderos} style={styles.caractInfo}>{senderos}</Text>
                                         </List.Accordion>
                                         <List.Accordion
                                             title="Servicios"
                                             left={props => <List.Icon {...props} icon="account" />}>
-                                            <Text key={servicios}>{servicios}</Text>
+                                            <Text key={servicios} style={styles.caractInfo}>{servicios}</Text>
                                         </List.Accordion>
                                         <List.Accordion
                                             title="Accesos"
                                             left={props => <List.Icon {...props} icon="road" />}>
-                                            <Text key={accesos}>►{accesos}</Text>
+                                            <Text key={accesos} style={styles.caractInfo}>{accesos}</Text>
                                         </List.Accordion>
                                         <List.Accordion
                                             title="Fase"
                                             left={props => <List.Icon {...props} icon="alert" />}>
-                                            <Text key={fase}>{fase}</Text>
+                                            <Text key={fase} style={styles.caractInfo}>{fase}</Text>
                                         </List.Accordion>
                                     </List.Section>
 
@@ -85,11 +86,12 @@ const PlacesInfo = ({route, navigation}) => {
 const styles = StyleSheet.create({
     container:{
         flex:1, 
-        backgroundColor:'white'
+        backgroundColor:'#F4F9F0'
     },
     header: {
         paddingHorizontal:20,
-        marginTop:20,
+        marginTop:10,
+        marginBottom:5,
         flexDirection: 'row',
         justifyContent:'space-between',
         position: 'relative'
@@ -129,7 +131,13 @@ const styles = StyleSheet.create({
     descLugar:{
         paddingHorizontal:10,
         marginBottom:20,
-    }
+        fontSize: 16,
+        textAlign: 'auto'
+    },
+    caractInfo:{
+        paddingVertical:10,
+        backgroundColor:'#E5E5E5'
+    },
 })
 
 export default PlacesInfo;
