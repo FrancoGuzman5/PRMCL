@@ -1,0 +1,82 @@
+# TooristApp
+
+_TooristApp es una aplicacion que busca falicilitar la busqueda de tours en los distintos viajes que se alicen en en pais, para esto la aplicacion cuenta con recorridos previamente registrados por un guia que el turista puede tomar_
+
+## Comenzando 🚀
+
+_Para comenzar a realizar las pruebas en el proyecto primero es necesario realizar una copia local del proyecto, para esto es necesario tener previamente instalado y configurado git, luego en la carpeta donde se desea guardar el proyecto es necesario abrir una consola de git y poner el siguiente comando: git clone https://github.com/gustavomunozb/ICF232_202010_Grupo9.git_
+
+Mira **Despliegue** para conocer como desplegar el proyecto.
+
+
+### Pre-requisitos 📋
+
+_Para el correcto funcionamiento del proyecto es necesario instalar Node js, se recomienda el uso de nvm para poder instalar varias versiones de node, la que se ha utilizado en este proyecto es la version 12.19.0, en el siguiente link se detalla paso a paso la instalacion de nvm https://luismasdev.com/instalar-varias-versiones-nodejs-en-windows/_
+
+```
+Una vez ya instalado y configurado nvm:
+se utiliza : nvm list
+para ver las versiones instaladas de node
+```
+Ademas de node tambien es necesaria la instalacion de un emulador de Android para poder correr el proyecto una vez ya este en ejecucion, para esto:
+1- Instale Visual Studio Code (o el editor de código que elija).
+2- Instale Android Studio para Windows. Android Studio instala el último SDK de Android de forma predeterminada. React Native requiere SDK de Android 6.0 (Marshmallow) o superior. Recomendamos utilizar el SDK más reciente.
+3- Cree rutas de variables de entorno para el SDK de Java y el SDK de Android:
+  - En el menú de búsqueda de Windows, ingrese: "Editar las variables de entorno del sistema", esto abrirá la ventana Propiedades del sistema.
+  - Elija Variables de entorno ... y luego elija Nuevo ... en Variables de usuario.
+  - Introduzca el nombre y el valor de la variable (ruta). Las rutas predeterminadas para los SDK de Java y Android son las siguientes. Si ha elegido una ubicación específica       para instalar los SDK de Java y Android, asegúrese de actualizar las rutas de las variables en consecuencia.
+      JAVA_HOME: C:\Program Files\Android\Android Studio\jre\jre
+      ANDROID_HOME: C:\Users\username\AppData\Local\Android\Sdk
+Ahora es necesario crear una maquina de android desde Android studio para luego utilizarla en el proyecto, para esto:
+1- Abrit Android studio
+2- En el apartado de configuracion seleccionamos AVD Manager
+3- Seleccionamos Create Cirtual Device...
+4- Ahora seleccionamos el modelo de movil que deseamos emular (Las pruebas han sido realizadas con el modelo Pixel 4)
+5- Seleccionamos la version de Android que tendra el dispositivo virtual (Las pruebas han sido realizadas en la version 10.0 de Android, API 29, Release name: Q)
+
+### Instalación 🔧
+
+_Estos pasos son para tener un entorno de desarrollo ejecutandose_
+
+_Una vez ya listos todos los pasos anteriores nos situamos en la carpeta del proyecto y abrimos una consola dentro de ella, ya sea powershell o consola de windows_
+
+```
+SHIFT + Click derecho dentro de la carpeta y elegimos la opcion abrir la ventana de PowerShell aqui
+```
+
+_Luego con la consola ya abierta en la carpeta del proyecto, es necesario instalar las dependencias del proyecto_
+
+```
+Ejecutar el siguiente comando:
+npm install
+```
+_Ya con esto esta todo listo para empezar las pruebas de desarrollo del proyecto_
+
+## Despliegue 📦
+
+_Para ejecutar el proyecto es necesario tener el dispositivo virtual en ejecucion_
+_Ahora para corroborar que el sistema reconoce el emulador utilizamos el siguiente comando:_
+```
+adb devices
+```
+_Una vez reconocido el emulador ejecutamos el siguiente comando para ejecutar el proyecto en dispositivo virtual:_
+```
+npx react-native run-android
+```
+_Si todo resulto con normalidad ya se esta eejecutando el proyecto en el dispositivo_
+
+## Construido con 🛠️
+
+* [ReactNative](https://reactnative.dev/) - Framework de JavaScript utilizado
+* [NPM](https://www.npmjs.com/) - Manejador de dependencias
+* [Node.js](https://nodejs.org/es/) - Entorno de ejecución de JavaScript
+
+## Autores ✒️
+
+_ICF232_202010_Grupo9_
+
+* **Fabian Perez** - [Favious23](https://github.com/Favious23)
+* **Gustavo Muñoz** - [gustavomunozb](https://github.com/gustavomunozb)
+* **Kurt Riveros** - [kurtriverost](https://github.com/kurtriverost)
+* **Rodrigo Astudillo**
+
