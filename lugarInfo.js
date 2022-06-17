@@ -10,7 +10,7 @@ const lugar = [
         servicios: 'Chucuyo Restaurantes El Payachatas, (abierto todos los días continuado), El Copihue de Oro y restaurante-hospedaje Doña Maty. Parinacota Alojamiento Uta Kala-Don Leo. Chungara Guardería CONAF. Servicios fuera del Área Bencina: Arica Teléfono: Putre Consultorio Público: Putre. Venta de alimentos: Putre, Chucuyo, Parinacota y Chungara. Carabineros: Putre, Chucuyo y Chungara. Informaciones: Arica y Putre.',
         accesos: 'Al parque se accede exclusivamente a través de la carretera internacional Arica-La Paz (Ruta CH-11), la que es transitable todo el año por ser un camino pavimentado.',
         fase: 'Medio impacto sanitario',
-        img:'https://es.wikipedia.org/wiki/Parque_nacional_Lauca',
+        img:'https://imagenescityexpress.scdn6.secure.raxcdn.com/sites/default/files/2018-06/cangu1.jpg',
     },
     {
         id:2,
@@ -23,7 +23,7 @@ const lugar = [
         servicios:'En esta unidad solo podemos encontrar la guardería de CONAF. Servicios fuera del área Bencina: Arica, teléfono: Putre, consultorio público: Putre, venta de alimentos: Putre, Chucuyo, Parinacota y Chungara, Carabineros: Putre, Chucuyo y Chungara, informaciones: Arica y Putre.',
         accesos:'Se accede por la Carretera Internacional CH-11 Arica-La Paz, transitable todo el año, luego se toma el desvío por la Ruta A- 235 que la cruza longitudinalmente y permite la comunicación con poblados aledaños. El camino es irregular, principalmente de tierra, por lo cual es recomendable utilizar vehículos altos. No existe movilización pública hacia esta unidad.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.vivearicatours.cl/thumb/870x638/media/parque-nacional-lauca-a.jpg',
     },
     {
         id:3,
@@ -36,7 +36,7 @@ const lugar = [
         servicios:'El Monumento Natural Salar de Surire no cuenta con senderos de excursión ni de interpretación ambiental. Solo se encuentra habilitado el camino principal y una zona de camping cercana a las termas de Polloquere.',
         accesos:'1. Ruta A-235, se accede por la Carretera Internacional CH-11 Arica- La Paz. Camino de tierra de una vía, regular calidad pero transitable todo el año, con excepción de periodos muy lluviosos. 2. Ruta A-31, camino de tierra de una vía, en mal estado, transitable solo temporalmente. No existe movilización pública hacia esta unidad. Los vehículos particulares deben ser de doble tracción.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://mayurutour.com/wp-content/uploads/2019/12/Salar-de-surire.jpg',
     },
     {
         id:4,
@@ -49,7 +49,7 @@ const lugar = [
         servicios: 'Al ser una unidad que recientemente se integró al SNASPE, el Monumento Natural Quebrada de Cardones no cuenta con infraestructura en el lugar.',
         accesos: 'Se debe tomar la ruta CH 11 que va de Arica a Tambo Quemado hasta el km 75.',
         fase: 'Medio impacto sanitario',
-        img: '',
+        img: 'https://patrimonio.bienes.cl/wp-content/uploads/2020/05/2-12.jpg',
     },
     {
         id:5,
@@ -62,7 +62,7 @@ const lugar = [
         servicios:'Esta unidad tiene dos senderos de trekking. Uno es el Sendero Laguna de Aravilla, cuyo recorrido catalogado de baja dificultad se realiza en, aproximadamente, 30 minutos, y apreciando la gran belleza escénica y biodiversidad presente en este parque. Igualmente, se pude hacer trekking en el sendero del volcán Isluga, el cual tiene una extensión de 6 kilómetros y se puede realizar el ascenso en 8 horas, el cual permite acceder al cráter del volcán y disfrutar de una vista panorámica del altiplano.',
         accesos:'En bus: Existen varias empresas de transportes nacional e internacional (Chile - Bolivia) que hacen el recorrido desde Iquique hasta Oruro, y que realizan paradas en Colchane. Para acceder a ellas desde Iquique, es necesario dirigirse a calle Esmeralda equina Juan Martínez, donde se encuentran los lugares de compra de pasajes. Habitualmente los buses salen desde el terminal Rodoviario de Iquique y los valores de los pasajes van desde los 4.000 pesos. Cuando se ha llegado a Colchane, se debe tomar transporte hasta el poblado de Enquelga (donde se encuentra la guardería de CONAF). Esta movilización tiene salidas los días domingos y jueves, a las 17:00 horas. El tiempo estimado desde Iquique al Parque Nacional Volcán Isluga por esta vía es de 4 horas, aproximadamente. Vehículo particular: Tomar la Ruta 5 (Panamericana) hasta Huara, posteriormente utilizar la ruta internacional CH-15 (pavimentada y en buen estado) en dirección a Colchane. En el kilómetro 169, aproximadamente, a la altura',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.franciscosaavedra.cl/wp-content/uploads/2021/04/nota2-1.jpg',
     },
     {
         id:6,
@@ -75,7 +75,7 @@ const lugar = [
         servicios:'La Reserva Nacional Pampa del Tamarugal cuenta con una zona de camping de cuatro sitios equipados con quincho, mesa, bancas, electricidad, agua, baños y duchas. Los sitios de camping tienen un valor de $4.500 para visitante nacional y $5.500 para extranjeros, y poseen una capacidad de 25 personas por sitio.',
         accesos:'Se puede acceder por la Panamericana Norte, a 75 km de Iquique o desde la misma ruta, a 22 km al sur de Pozo Almonte.',
         fase:'Medio impacto sanitario',
-        img:'',
+        img:'https://iquiquevision.files.wordpress.com/2020/12/portada-54.jpg',
     },
     {
         id:7,
@@ -88,6 +88,7 @@ const lugar = [
         servicios:'Cuenta con sendero peatonal con señalética. IMPORTANTE: Guardería de alta montaña es de uso exclusivo para guardaparques y personal de CONAF.',
         accesos:'Desde el kilómetro 1.310 de la ruta 5 Norte se continua hacia el este por la ruta B-55, camino internacional a Argentina por el paso de Socompa, hasta el cruce con el camino al Salar de Punta Negra ubicado al este de la explotación de la Cía. Minera Zaldívar. Un segundo acceso continúa desde el punto de la bifurcación recién señalado, hacia el sur por la ribera este del salar de Punta Negra, en un tramo de 59 kilómetros, hasta interceptar con la ruta B -865 que se desprende del kilómetro 1.165 de la ruta Panamericana. Desde el poblado de San Pedro de Atacama, se puede acceder a través de la ruta 23 San Pedro de Atacama-Toconao, en un tramo de 38 kilómetros, de ahí se continúa por la ruta B-355 que bordea al salar de Atacama hasta quebrada del Tucúquere en el cordón de Lila.',
         fase:'Medio impacto sanitario',
+        img: 'https://www.franciscosaavedra.cl/wp-content/uploads/2020/12/parque-nota.jpg'
     },
     {
         id:8,
@@ -100,7 +101,7 @@ const lugar = [
         servicios:'El Parque Nacional Morro Moreno no cuenta aún con servicios.',
         accesos:'A la unidad se puede acceder todo el año por la ruta B-440, Antofagasta-Juan López y por desvío desde esa ruta, hacia isla Santa María y caleta Bolsico.',
         fase:'Medio impacto sanitario',
-        img:'',
+        img:'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Vista_desde_el_Monumento_Natural_La_Portada%2C_Antofagasta.jpg/500px-Vista_desde_el_Monumento_Natural_La_Portada%2C_Antofagasta.jpg',
     },
     {
         id:9,
@@ -113,7 +114,7 @@ const lugar = [
         servicios:'La Reserva Nacional Los Flamencos cuenta con áreas de acampar y merienda, alojamiento alimentación y bebidas, centro de información ambiental, venta de recuerdos, estacionamientos públicos y baños públicos. Venta de combustible en San Pedro de Atacama.',
         accesos:'A la unidad se puede acceder por ruta internacional Chile -Argentina B-241 por el paso de Jama los salares de Tara y Aguas Calientes 1. Al Sector 2: Salar de Pujsa: Ruta B-241: ruta internacional Chile-Argentina, por paso de Jama. Sector 3: Lagunas Miscanti y Miñiques: ruta internacional Chile-Argentina, CH- 23, por paso de Sico. Sector 4: Salar de Atacama, sector Soncor: ruta B-355, San Pedro de Atacama- Peine. Sector 5: Salar de Atacama, sector Aguas de Quelana: ruta B-355, San Pedro de Atacama-Peine. Sector 6: Valle de la Luna: ruta secundaria CH-23. Sector 7: Tambillo: ruta internacional Chile-Argentina, CH-23.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://i0.wp.com/regionalista.cl/web/wp-content/uploads/2019/01/Reserva-Nacional-Los-Flamencos.jpg?fit=764%2C532&ssl=1',
     },
     {
         id:10,
@@ -126,7 +127,7 @@ const lugar = [
         servicios:'En el presente la reserva no ofrece servicios turísticos. \nNOTA: A partir del 1° de agosto de 2019 se cierra el acceso vehicular a la reserva, en apoyo a proceso de restauración de la flora y fauna del sector.',
         accesos:'Se accede a la Reserva por la ruta 1, que une la ciudad de Antofagasta con Mejillones y Tocopilla, hasta el km 12, sector rotonda La Chimba, desde ese punto se continúa por camino de ripio estabilizado por 3 km; ambos transitables todo el año.',
         fase:'Medio impacto sanitario',
-        img:'',
+        img:'https://www.museodeantofagasta.gob.cl/sites/www.museodeantofagasta.gob.cl/files/2021-04/chimba_0.JPG',
     },
     {
         id:11,
@@ -139,7 +140,7 @@ const lugar = [
         servicios:'El Monumento Natural La Portada cuenta con áreas de picnic y un museo.',
         accesos:'A la unidad se puede acceder desde la ruta 1 de Antofagasta, en el km 14, gira hacia el poniente en un tramo de 2 km. Camino accesible todo el año. No requiere doble tracción.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://antofaturismo.cl/wp-content/uploads/2021/01/Monumento-Natural-La-Portada-Antofagasta.jpg',
     },
     {
         id:12,
@@ -152,7 +153,7 @@ const lugar = [
         servicios:'No cuenta con servicios.',
         accesos:'Se puede acceder todo el año, al área se puede acceder por el norte a través de la carretera Panamericana, Ruta CH-5 Norte a la altura del km. 1.326, en donde se desprende un camino secundario de aproximadamente 56 km que llega a la costa. Por el sur, a través de la carretera Panamericana, ruta CH–5 norte a la altura del km. 1.096, de donde se desprende un ramal de 25 km que conecta con el puerto de Taltal; de ahí se puede continuar por la ruta CH–1, que recorre un tramo de 152 km. hacia el norte, hasta llegar al sector Paposo Norte.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://patrimonio.bienes.cl/wp-content/uploads/2020/05/Dt_-ayMX4AIQ0Ol.jpg',
     },
     {
         id:13,
@@ -165,7 +166,7 @@ const lugar = [
         servicios:'Actualmente los servicios recreativos y turísticos que posee el parque son administrados por empresarios locales y regionales. Consulte por ellos en los datos de contacto. \n►Teléfono: (56) 522213404 correo electrónico: atacama.oirs@conaf.cl.',
         accesos:'A través de la ruta C-120 que une al puerto de Chañaral y la administración del parque nacional con una longitud de 27,1 km; otro por la Panamericana Norte, ruta C-112 a la altura del km 1014, sector Las Bombas, al cual se accede por un camino secundario y el tercero, también por la Ruta 5, un poco más al sur del anterior, ruta C-110 a la altura del km 968. Estos tres caminos llegan al sector de la administración del Parque Nacional Pan de Azúcar. Se puede acceder solamente a través de la contratación de operadores turísticos o en vehículo particular.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.gochile.cl/fotos/header/63273-pn-pan-de-azucar-atilio-leandro-1-.jpg',
     },
     {
         id:14,
@@ -178,7 +179,7 @@ const lugar = [
         servicios:'El Parque Nacional Nevado de Tres Cruces cuenta con senderos, refugios y miradores. Se debe reservar para pernoctar en el refugio de CONAF, sector de la laguna del Negro Francisco: $10.000 por persona.',
         accesos:'A la unidad se puede acceder por la ruta internacional CH-31 a través del paso de San Francisco. Una variante de este camino es la que va por la quebrada de Paipote y pasa cerca de la laguna Santa Rosa. O bien, desde la quebrada de San Miguel hasta la mina Aldebarán. No existe transporte público.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://mayurutour.com/wp-content/uploads/2020/01/Parque-Nacional-Nevado-Tres-Cruces-Atacama.jpg',
     },
     {
         id:15,
@@ -191,7 +192,7 @@ const lugar = [
         servicios:'El parque cuenta con un sitio de campismo, ubicado en el sector Los Pozos, frente a playa Blanca. Dispone de 20 litros de agua para consumo, mesabanca, hornilla con parrilla, techo. Valor: $8.000 por persona. \nLos sitios pueden ser ocupados hasta por 2 carpas, con capacidad max. de 6 personas. La ducha tiene un valor de $1.000 (niño $200). También cuenta con picnic: $8.000 por persona, hasta 6 por sitio.',
         accesos:'Desde Huasco, tomando la ruta costera C-360, a 40 km. Al norte de Huasco Bajo, se encontrará con la guardería de Los Pozos de CONAF. Otra opción es llegar por la ruta de ripio C-440 (que se desprende 40 km al norte de Vallenar), que une a Canto de Agua con Carrizal Bajo. El tiempo aproximado desde Vallenar por ambas rutas es de hora y media. Ambos caminos están en buen estado y no se requiere de doble tracción. Sí es necesario tener precaución en la conducción por la ruta costera, ya que la carpeta de bischofita que recubre la ruta, se torna en sectores resbaladiza en presencia de humedad. Existe transporte público desde Vallenar una vez por semana, los viernes. La salida es desde frente al estadio techado.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://img.redbull.com/images/q_auto,f_auto/redbullcom/2017/06/29/d8c5f67e-8f57-4d7e-9e6f-0f462d84a543/vista-privilegiada.png',
     },
     {
         id:16,
@@ -204,7 +205,7 @@ const lugar = [
         servicios:'No hay sitios de campismo habilitados al interior de la unidad, pero es factible acampar en las comunidades aledañas. Se encuentra en uso sitio de merienda con 12 acomodaciones en el sector del Arrayancito, vecino al Centro de Información Ambiental. Cada sitio cuenta con mesones rústicos, además de pilones de agua no potable, útiles para el aseo de utensilios. Anexo a los sitios de merienda se encuentran 6 servicios higiénicos para damas y varones.',
         accesos:'Desde Santiago: tomar la Ruta 5, hasta km 387. En el paso nivel existente en el lugar y que se encuentra debidamente señalizado, tomar camino lateral hacia el poniente que lleva en 27 km, a través de diversas comunidades. Este camino es de tierra y se conserva en buen estado todo el año. Desde La Serena, tomar la Ruta 5, sector Autopista del Elqui, hacia el sur hasta el km 387 y desde allí seguir camino lateral de tierra hacia el oeste. Son 110 kilómetros posibles de recorrer en una hora y 45 minutos. Desde Ovalle: , existen dos vías de acceso, por la variante Ovalle-Socos, en donde, llegado a ese punto, se debe acceder a la Ruta 5, viajando hacia el norte hasta la entrada descrita, o bien, ingresar, en la salida sur de la ciudad, al camino que va hacia el pueblo de Cerrillos de Tamaya. Un km antes del pueblo hay un desvío al poniente por un camino de tierra que se mantiene en buenas condiciones, después de 7 kilómetros llega hasta el kilómetro 387, donde está el ingreso descrito.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/b4/59/76/sendero-desde-donde-se.jpg?w=1200&h=-1&s=1',
     },
     {
         id:17,
@@ -217,7 +218,7 @@ const lugar = [
         servicios:'Durante la pandemia, el horario de venta de boletos y de atención es de martes a viernes, de 8:45 a 14:00, con aforo de 200 personas diarias. Con esta medida se evitan dificultades relacionadas con elementos climatológicos que puedan dificultar la navegación. Cumplida dicha capacidad, se cierra la venta. La permanencia en la isla es de una hora. No se permite el baño en las playas de la isla.',
         accesos:'Desde Vallenar, por ruta 5 hasta Domeyko en donde existe un desvío al oeste, que conduce a caleta Chañaral de Aceituno, desde donde zarpan embarcaciones que circunnavegan la isla Chañaral. Desde ese pueblo se puede llegar también a Punta de Choros, que no es recomendable para vehículos pequeños o bajos. Desde La Serena, tomar ruta 5 en dirección al norte por 87 kilómetros. Allí encontrará un desvío señalizado hacia el oeste (Ruta D-110-C), que después de 22 km, pasa por el pueblo de Los Choros y a los 42 km, llega a caleta Punta de Choros. No existe movilización colectiva regulada, solo realizan transporte público distintos furgones particulares que deben contactarse en paraderos no oficiales',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.glovox.io/wp-content/uploads/sites/2/2021/09/isla_damas.jpeg',
     },
     {
         id:18,
@@ -230,7 +231,7 @@ const lugar = [
         servicios:'Posee 2 senderos de interpretación y no existe infraestructura para discapacitados.',
         accesos:'Se accede desde Santiago por la ruta 5 hacia el norte, hasta cruce en km 230. Viajar 57 kilómetros, por ruta D-85 hasta Illapel, de donde la ruta continúa camino hacia el oeste, después de 15 kilómetros, enfrenta un desvío señalizado hacia la ruta D-705, que va a Combarbalá y Canela. A 500 metros del cruce se encuentra el portón de ingreso. Desde La Serena, son 190 kilómetros hacia el sur, por ruta 5, hasta cruce señalizado que toma la ruta D-71, que conduce a Canela. Tomar este camino hasta la localidad de Los Pozos (47 km), y desviar en ese lugar hacia el sur, empalmando con la ruta D-705, a los 31 kilómetros llegará a la entrada de la reserva. Los caminos indicados son pavimentados. Desde Santiago y La Serena salen buses interurbanos que pasan frente a la reserva. Desde Illapel solo se pueden tomar taxis básicos.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.andeshandbook.org/media/route_gallery/14450237591747725363.jpg',
     },
     {
         id:19,
@@ -243,7 +244,7 @@ const lugar = [
         servicios:'Existe una pérgola como sitio de merienda, con capacidad para 6 grupos de no más de 6 personas cada uno, con mesones y sombra. Ingreso hasta las 16.00.',
         accesos:'Desde Ovalle salir por ruta 43 hasta cruce señalizado con ruta D 595, desde allí viajar 55 kilómetros al este, hasta el cruce señalizado que llega hasta el pueblo de San Pedro Viejo. Otra opción es desde La Serena por ruta 43, llegar hasta el pueblo de Recoleta, en ese lugar tomar camino secundario, que empalma con la ruta D 595. Otra opción es viajar por el valle de Elqui (D-41), tomando la Ruta Antakari, que pasa por Andacollo y Río Hurtado.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://media-cdn.tripadvisor.com/media/photo-s/05/88/55/46/nach-knochenfunde-dinonachlild.jpg',
     },
     {
         id:20,
@@ -256,7 +257,7 @@ const lugar = [
         servicios:'- Información turística y ambiental\n- Oficinas de recepción y control de acceso para visitantes\n– Educación y concientización Ambiental\n– Rutas para Senderismo\n- Sitios para campismo (picnic-camping)\n– Áreas habilitadas para estacionamientos (autos)\n– Miradores\n– Áreas de descanso\n– Visitas Guiadas\n– Rutas para Bicicletas.\nCierre invernal Sendero Andinista (Tramo Mina - Cima cerro La Campana) meses de Junio a Agosto.\nActualmente Camping cerrado: solo visitas por el día.',
         accesos:'- Sector de Granizo (Cima del Cerro La Campana); por Avenida Granizo paradero 45 comuna de Olmué.\n- Sector Cajón Grande (Poza del Coipo-Robles); por Avenida Granizo paradero 40 comuna de Olmué.\n-Sector Palmas de Ocoa (Palmas Chilenas-Salto La Cortadera); por Ruta 5 Norte Km. 98 comuna de Hijuelas.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://i4.visitchile.com/img/GalleryContent/551/slider/La_Campana.jpg',
     },
     {
         id:21,
@@ -269,7 +270,7 @@ const lugar = [
         servicios:'Zonas de camping: \n-Puerto Francés, Villagra, Vaquería y Puerto Inglés. \n-Se autorizan solo por 2 días y 1 noche al interior del parque (sector Villagra y Plazoleta del Yunque sin costo). \nZonas de picnic: \n-Villagra \n-Plazoleta El Yunque \n-Puerto Inglés \n-Vaquería y Puerto Francés. \nMiradores: \n-Rebaje La Piña \n-Cordón Villa Alemana \n-Salsipuedes \n-Las Cuatrocientas0\n- Subida Mirador \n-Mirador de Selkirk \n-Punta Larga  \n-Punta Chupones.',
         accesos:'Solo aérea y marítima. Aérea: líneas aéreas locales LASSA y ATA, vuelos semanales (2,5 horas desde Santiago). Marítima: buque de la Armada en diciembre y febrero. El resto del año ocasionalmente. Son 1 y ½ días de navegación desde de Valparaíso.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.gochile.cl/fotos/header/2842-noi-crusoe-island-lodge-excursions-walking-in-the-woods-7.jpg',
     },
     {
         id:22,
@@ -282,7 +283,7 @@ const lugar = [
         servicios:'El Parque Nacional Rapa Nui, posee caminos pavimentados que conectan toda la costa sur, este camino en la actualidad se encuentra en regular estado, sin embargo el camino que conecta el Hanga Roa con la playa de Anakena directamente se encuentra en perfecto estado. \nEl sector de la costa norte se encuentra conectado principalmente por caminos no pavimentados y en regular a mal estado. Actualmente se cuenta con servicios de tour operadores, los que realizan actividades de visitación de los sitios durante todo el día, o medios días. \nLos sectores de Rano Raraku y Anakena son los únicos que cuentan con fogones y servicios de baños. Anakena es el único lugar que cuenta con área de primeros auxilios y salvavidas en la temporada. Carabineros de Chile, se encuentran solo en Hanga Roa. Bencina, solo en Hanga Roa, cerca del aeropuerto Alimentación, en su mayoría en Hanga Roa, solo existen puestos de empanadas y sánguches en Anakena.',
         accesos:'Se accede mediante avión, vuelo que actualmente solo realiza la Aerolínea Latam, en su itinerario Santiago-Isla de Pascua (7 vuelos a la semana, miércoles y domingos 2 vuelos diarios) e Isla de Pascua-Santiago, 7 vuelos a la semana. Cruceros, los cuales toman como ruta por la Polinesia y pasan por Isla de Pascua y se encuentran entre 1 a 3 días en ella. Charters privados. Barcos de la Armada que realiza viajes 1 vez al mes. Dentro del Parque Nacional los sectores de Poike y Maunga Terevaka solo es posible visitarlos a caballo, excursión; el resto de la Isla se puede recorrer en vehículo de preferencia utilización de 4x4 en caminos que no son pavimentados, bicicleta, caballos, caminatas. Actualmente se ofrecen distintos paquetes turísticos que permiten visitar los sitios por el día completo o medio día, acompañados de guías turísticos.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.latercera.com/resizer/mZTBbdOqHaZeX-FrB59uz8Xast4=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/Z36BRRYUQNHBZIRBLCEE2NQMSM.jpg',
     },
     {
         id:23,
@@ -295,7 +296,7 @@ const lugar = [
         servicios:'Baños, área de picnic, cicloruta, senderos interpretativos (inclusivos), mirador.',
         accesos:'A la unidad se puede acceder a través de la Ruta 68, que comunica Valparaíso con Santiago. El acceso está el km 87.3 en dirección de Santiago a Valparaíso.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.radiovalparaiso.cl/wp-content/uploads/2020/01/Lago-penuelas.jpg',
     },
     {
         id:24,
@@ -308,7 +309,7 @@ const lugar = [
         servicios:'Sitio de picnic.',
         accesos:'omando como referencia el puente Lo Gallardo sobre el río Maipo, que constituye el límite de las comunas de San Antonio y Santo Domingo, se debe seguir la Ruta 66 en dirección sur, se dobla a mano derecha en cruce Atalaya, dirección a Bucalemu-Rapel, y se continúa por la Ruta G-80-I. Luego en desvío a mano derecha, en el cruce El Convento, comienza la Ruta G-832, hasta Las Salinas del Convento hasta por la cual se debe continuar 12 kilómetros, en dirección oeste hasta encontrase con una desviación conocida como servidumbre de tránsito vehicular de unos 4 kilómetros de longitud, la cual se aproxima a la Reserva Nacional El Yali.',
         fase:'Medio impacto sanitario',
-        img:'',
+        img:'https://www.conaf.cl/wp-content/files_mf/cache/th_4adc6ebe3e2b0d2fbfea201316181ee9_rney2.jpg',
     },
     {
         id:25,
@@ -321,7 +322,7 @@ const lugar = [
         servicios:'No aplica',
         accesos:'No aplica',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://mapio.net/images-p/19248210.jpg',
     },
     {
         id:26,
@@ -334,12 +335,12 @@ const lugar = [
         servicios:'En la caleta de Zapallar se pueden contratar servicios de paseos en bote, cuando el tiempo lo permite, y rodear el islote para tomar fotografías de las aves marinas o paisajísticas desde la embarcación.',
         accesos:"Desde Valparaíso: 75 km, 1 h 30', por Ruta F-30-E. Desde Viña del Mar: 66 km, 1 h 20', por Ruta F-30-E. Desde Santiago: 165 km, 2 h 45', por Ruta 5 Norte, tomar la variante Nogales (F-20), y luego empalmar con la Ruta F-30-E. Cabe señalar que las rutas anteriores llegan hasta el balneario de Cachagua.",
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.monumentos.gob.cl/sites/default/files/styles/slide_monumentos/public/image-monumentos/isla_de_cachagua.jpg?itok=Y6tp6Max',
     },
     {
         id:27,
         region: 'VI',
-        nombre:'Santuario de La Naturaleza Laguna El Peral',
+        nombre:'Santuario de la Naturaleza Laguna El Peral',
         descripcion:'La unidad fue creada el 31 de julio de 1975, por DS n.º 631 del Ministerio de Educación.\n\nSu superficie es de 25 hectáreas, ubicada en la comuna de El Tabo, provincia de San Antonio, Región de Valparaíso.\n\nPor las condiciones que presenta esta laguna, permite la reproducción de una gran variedad de especies de aves.',
         horarios:'Abierto martes a domingo, de 9:00 a 12:00 (último ingreso) y 14:00 a 16:00 hrs. Reserva de entradas en www.aspticket.cl.',
         tarifas:'Cobro liberado.',
@@ -347,7 +348,7 @@ const lugar = [
         servicios:'También existen dos miradores donde pueden acceder personas en silla de rueda o movilidad reducida. La unidad cuenta con zona de picnic gratuito.',
         accesos:'Se accede por la carretera costera que une Algarrobo con San Antonio, la ruta G- 98, a la altura del km 120, considerado desde la capital, tomando el camino secundario que va a Playas Blancas, el cual es transitable todo el año.',
         fase:'Medio impacto sanitario',
-        img:'',
+        img:'https://www.redobservadores.cl/wp-content/uploads/1989/06/peral_paisaje-01-e1557549167648.jpg',
     },
     {
         id:28,
@@ -360,7 +361,7 @@ const lugar = [
         servicios:'Parque Nacional Río Clarillo cuenta con senderos, áreas de picnic para meriendas frías y centro de información ambiental. 4 sitios para personas en situación de discapacidad en Sector Los Quiyalles. NO hay venta de víveres y productos al interior del parque.   ',
         accesos:'En metro llegar hasta estación terminal de la línea 4 Plaza Puente Alto. Caminar al paradero de la Av. Concha y toro y tomar la micro 978 Río Clarillo con dirección a Pirque, hasta su último paradero, que está a 300 metros del primer portón. Desde allí debe caminar 4 Km aproximadamente por un camino de tierra, hasta el 2° portón. donde debe pagar el valor de las entradas.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://finde.latercera.com/wp-content/uploads/2020/09/PN-Ri%CC%81o-Clarillo-700x450.jpg',
     },
     {
         id:29,
@@ -373,7 +374,7 @@ const lugar = [
         servicios:'Reserva Nacional Roblería del Cobre de Loncha cuenta con excursionismo, observación de flora, observación de fauna, observación panorámica e información ambiental.',
         accesos:'Es posible acceder a la unidad Roblería del Cobre de Loncha desde Rancagua por camino pavimentado hasta Doñihue (23,2 km) por la carretera H-30. Desde Doñihue hasta La Rinconada se siguen 3,8 km de camino de tierra y desde este lugar hasta la portería de la reserva, ubicada en el portezuelo, 13,5 kms de huella de cerro denominada cuesta de Doñihue, de alta dificultad e intransitable en días de lluvia .',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://patrimonio.bienes.cl/wp-content/uploads/2020/05/robleria-etc.jpg',
     },
     {
         id:30,
@@ -386,7 +387,7 @@ const lugar = [
         servicios:'Monumento Natural El Morado cuenta con miradores y senderos. \nCamping solo para andinistas especializados. Otras visitas, solo por el día',
         accesos:'El Morado se encuentra a 93 km de Santiago a 2,5 horas, aproximadamente. La ruta oficial es la G-25, pavimentada hasta Baños Morales. Locomoción pública: Metrobús 72, que sale desde conexión intermodal Bellavista de la Florida (L5 del Metro), en temporada alta, desde las 7.30. Buses Turismo Montaña salen momentáneamente desde Américo Vespucio con Vic. Mackenna, reservas al fono: 228500555, salida a las 8.30 todos los días durante la temporada.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://finde.latercera.com/wp-content/uploads/2021/01/El-Morado-2-ok.jpg',
     },
     {
         id:31,
@@ -399,7 +400,7 @@ const lugar = [
         servicios:'La unidad no cuenta con servicios.',
         accesos:'A la unidad se puede acceder desde Santiago por la Autopista del Sol hasta Melipilla, para luego tomar desvío a Rapel por 87 km. más hasta Las Cabras. Otra alternativa es por la Ruta 5 Sur hasta Pelequén (118 km.) para luego entrar 43 km. hasta la misma localidad.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Palmar2.jpg',
     },
     {
         id:32,
@@ -412,7 +413,7 @@ const lugar = [
         servicios:'Tres zonas de campismo: Ranchillo, Tricahue (CERRADO) y Los Peumos (CERRADO). Habilitados con servicios básicos, baños, duchas (sólo agua fría), bebederos agua clorada (no potable), sitios demarcados individuales y lavaderos. Costo de $ 7000 (hasta 7 personas). Ranchillo: 35 sitios para 7 personas cada uno. Posee, además, pozón rústico para baño recreativo. Tricahue: 3 sitios, el primero para 100 personas (solicitarlo a teresita.gonzalez@conaf.cl o a alvaro.aguilar@conaf.cl) y los restantes, para grupos de hasta 7 personas. Los Peumos, hasta 7 personas por sitio. Importante: estas no cuentan con electricidad.',
         accesos:'Desde Rancagua por Carretera del Cobre hasta Coya (25 km) por camino pavimentado, luego por camino de tierra en buen estado durante todo el año, hacia Pangal, cruzando el río Cachapoal por puente Chacayes y continuar hacia la reserva (16 km). Otra vía de acceso es: desde carretera 5 sur, sector Gultro cruce Olivar, se accede por ruta Colinas Verdes hasta Termas de Cauquenes, cruzar puente y continuar a Coya (30 km) por camino pavimentado y luego por camino de tierra (en buen estado durante todo el año), hacia Pangal, cruzando el río Cachapoal por puente Chacayes y continuar hacia la reserva (16 km). Buses o colectivos Rancagua-Coya que se toman en el Rodoviario. De Coya continuar a pie o bicicleta, por camino de tierra en buen estado durante todo el año, hasta la reserva (16 km).',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://i0.wp.com/www.diariosustentable.com/wp-content/uploads/2020/10/Ruta-del-Tricahue-paisaje-1160x770-min-1-1.jpg?fit=800%2C533&ssl=1',
     },
     {
         id:33,
@@ -425,7 +426,7 @@ const lugar = [
         servicios:'Cuenta con venta de alimentos, senderos, zona de picnic, mirador, centro ambiental, camping (concesionados) y arriendo de caballos. Contacto de empresa concesionaria: ehernandez@valdokko.com.',
         accesos:'Su principal acceso el camino que une Molina con el sector denominado Parque Inglés, camino asfaltado los primeros 25 km, el resto es ripiado casi en su totalidad y permite el acceso durante todo el año. En los últimos 9 km, ya en el interior del área presenta cierto grado de dificultad en su tránsito durante el invierno debido a nevazones. Desde Talca-San Clemente se debe tomar la Ruta Internacional Pehuenche, luego el cruce a Corralones y finalmente por la variante Las Lomas, 28 km. que en su totalidad son de ripio hasta el parque (recomendado para vehículos con tracción en las cuatro ruedas). Existe locomoción pública desde Molina: buses Hernández: hernandez@gmail.com, 752491179 y 752521303.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://cooperativa.cl/noticias/site/artic/20210225/imag/foto_0000000120210225100311.jpg',
     },
     {
         id:34,
@@ -438,7 +439,7 @@ const lugar = [
         servicios:'Cuenta con venta de alimentos, senderos, zona de picnic, mirador, centro ambiental, camping y arriendo de caballos.',
         accesos:'Su principal acceso el camino que une Molina con el sector denominado Parque Inglés, camino asfaltado los primeros 25 km, el resto es ripiado casi en su totalidad y permite el acceso durante todo el año. En los últimos 9 km, ya en el interior del área presenta cierto grado de dificultad en su tránsito durante el invierno debido a nevazones. Desde Talca-San Clemente se debe tomar la Ruta Internacional Pehuenche, luego el cruce a Corralones y finalmente por la variante Las Lomas, 28 km. que en su totalidad son de ripio hasta el parque (recomendado para vehículos con tracción en las cuatro ruedas). Existe locomoción pública desde Molina: buses Hernández: hernandez@gmail.com, 752491179 y 752521303.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://pbs.twimg.com/media/En6lUN6XUAAjmiG.jpg',
     },
     {
         id:35,
@@ -451,7 +452,7 @@ const lugar = [
         servicios:'Recreación, educación ambiental e investigación.',
         accesos:'Sector el Fin se encuentra ubicado a 15 km. de Empedrado, tiene acceso desde Talca por el camino pavimentado que va a Constitución. Por su parte, el sector Los Ruiles de Cauquenes, se encuentra ubicado inmediatamente al costado norte del camino que une Cauquenes con Chanco, está a la altura del kilómetro 29 de dicha ruta.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.andeshandbook.org/media/route_gallery/14215857601708139976.jpg',
     },
     {
         id:36,
@@ -464,7 +465,7 @@ const lugar = [
         servicios:'No existe infraestructura para discapacitados, como tampoco para otras actividades de uso público, salvo investigación o educación ambiental',
         accesos:'Se accede al área desde la ciudad de Cauquenes pasando por Pelluhue y Curanipe. Desde Curanipe el camino es asfalto hasta el cruce de Chovellén (8 km) y luego continúa en 12 km hasta el sector de Tregualemu en ruta de ripio. El acceso está expedito casi todo el año, aunque con dificultad en el invierno, sobre todo en los últimos 10 km.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://maulesur.cl/wp-content/uploads/losqueules.jpg',
     },
     {
         id:37,
@@ -477,7 +478,7 @@ const lugar = [
         servicios:'La Reserva Nacional Laguna Torca cuenta con senderos y centro de información ambiental.',
         accesos:'A la unidad se puede acceder desde Curicó es por un camino de tránsito permanente que pasa por la localidad de Hualañé, de 108 km, 70 de los cuales están asfaltados.',
         fase:'Bajo impacto sanitario',
-        img:'',
+        img:'https://chilesorprendeme.cl/wp-content/uploads/2017/03/0-5-1030x773.jpg',
     },
     {
         id:38,
@@ -490,7 +491,7 @@ const lugar = [
         servicios:'La Reserva Nacional Federico Albert cuenta con áreas de picnic y camping.',
         accesos:'A la unidad se puede acceder por un camino pavimentado desde Cauquenes, a una distancia de 48 km y por una ruta de asfalto, desde el cruce Viñales (Constitución) hasta Chanco, Desde Talca y San Javier se puede llegar por la ruta los Conquistadores, Cauquenes-Chanco, ruta pavimentada y habilitada durante todo el año (2 horas 15 minutos). Medios de locomoción pública: durante todo el año desde Talca, San Javier, Constitución, Cauquenes y Santiago.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/85/c8/37/reserva-nacional-federico.jpg?w=1200&h=-1&s=1',
     },
     {
         id:39,
@@ -503,7 +504,7 @@ const lugar = [
         servicios:'Caminatas, cabalgatas, charlas, investigación, campismo: camping Antahuara (sol de la montaña) a 800 metros de la administración (SUSPENDIDO). Locomoción colectiva desde terminal rural frecuencia de marzo a dic. 7.15, 12.00, 13.00 y 14.50.',
         accesos:'La unidad se ubica a 66 Km. al oriente de Talca, pasando por San Clemente, de los cuales 50 km son pavimentados y 20 de ripio. El tránsito se mantiene todo el año, aunque en invierno este puede verse dificultado por la nieve en los últimos 4 km del trayecto.',
         fase:'Bajo impacto sanitario',
-        img:'',
+        img:'https://upload.wikimedia.org/wikipedia/commons/8/8e/Bosque_Oto%C3%B1al_Reserva_Nacional_Altos_de_Lircay_22.jpg',
     },
     {
         id:40,
@@ -516,7 +517,7 @@ const lugar = [
         servicios:'La Reserva Nacional Los Bellotos del Melado cuenta con senderos, no tiene zona de camping ni lugares para merienda.',
         accesos:'La unidad se ubica en la precordillera de la provincia de Linares, tiene acceso desde la ciudad del mismo nombre a través de un camino de ripio y tierra que llega hasta el túnel Canal melado, y finalmente pasar por la zona de embalse Ancoa y Roblería.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Laguna_en_reserva_nacional_Los_Bellotos.jpg/800px-Laguna_en_reserva_nacional_Los_Bellotos.jpg?20190701022503',
     },
     {
         id:41,
@@ -529,7 +530,7 @@ const lugar = [
         servicios:'La reserva cuenta con una guardería ubicada en el Sector llamado Santuario de la Naturaleza, a unos 9 km del después del desvío hacia el fundo Los Robles. Este sector dispone de un área de acampar y caseta sanitaria.',
         accesos:'La unidad se encuentra a 70 km de Chillán, a unas 2 horas y media por la Ruta Chillán - Coihueco - Minas del Prado. Medios de locomoción público solo hasta localidad de Minas del Prado. Posterior se debe continuar por caminos forestales hasta fundo El Roble. Los últimos 8 km corresponden a una senda de alta montaña de alta dificultad de una sola vía.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.conaf.cl/wp-content/files_mf/cache/th_4adc6ebe3e2b0d2fbfea201316181ee9_rnlhn2.gif',
     },
     {
         id:42,
@@ -542,7 +543,7 @@ const lugar = [
         servicios:'Cuenta con senderos y miradores. Visitas deberán ser agendadas con a lo menos una semana de anticipación al correo reserva.nuble@conaf.cl. En el interior de la unidad no existen servicios de abastecimiento. Por lo que se recomienda realizar adquisición de suministros en localidad Recinto-Los Lleuques, distante a 22 km del acceso a la reserva.',
         accesos:'La Reserva Nacional Ñuble se ubica a 73 km al este de la ciudad de Chillán por ruta N-55. En la localidad de Recinto, acceder vía camino Atacalco (Ruta N-633) hasta predio Los Cipreses en una distancia total de 15 kilómetros. Posteriormente los últimos 8 km por servidumbre (Accesible entre 8:00 y 20:00 horas), transitable solo con vehículos doble tracción velocidad máxima recomendada 30 km/h.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.franciscosaavedra.cl/wp-content/uploads/2020/09/como-es-la-reserva-nacional-nuble.jpg',
     },
     {
         id:43,
@@ -555,7 +556,7 @@ const lugar = [
         servicios:'El Parque Nacional Laguna del Laja cuenta con un mirador (apto para silla de ruedas), centro de información ambiental, zonas de pesca, miradores y campismo.',
         accesos:'A la unidad se puede acceder desde Los Ángeles; siendo los primeros 82 km pavimentados hasta Abanico y el resto de ripio transitable todo el año, teniendo la precaución de portar cadenas para nieve en la temporada invernal, para acceder a las canchas de esquí (Julio-Agosto). En cuanto a locomoción pública, existen buses rurales con salidas diarias de Los Ángeles con Abanico, a 11 km antes de la entrada al Parque. Desde Abanico hasta el Parque no existe movilización pública.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.saltodellajatur.cl/wp-content/uploads/2019/05/laguna-laja.jpg',
     },
     {
         id:44,
@@ -568,7 +569,7 @@ const lugar = [
         servicios:'Servicios: existe una zona de merienda fría que se ubica al costado del estero Nonguén, allí se pueden utilizar los mesones para hacer colación o merienda. Existe una segunda zona de merienda fría en el sector “La Cascada”, camino al sendero Lo Rojas. Los servicios higiénicos se encuentran a la entrada de la Reserva Nacional, a un costado de los estacionamientos. No hay señal celular ni energía eléctrica. Otros servicios fuera de la Reserva Nacional: restaurantes, spa, zoológico, almacenes, combustible y locomoción colectiva a 5 km de la unidad, en el Valle Nonguén.',
         accesos:'Acceso principal es avenida Collao, luego avenida Valle Nonguén y su prolongación hasta el acceso del parque, lugar donde termina este camino. La entrada está a una distancia de 12 km de la Plaza de Armas o Independencia de Concepción. Entrar por el Valle Nonguén, en dirección al zoológico, unos 200 mts más arriba de este, pasar el terminal de buses Las Bahías, luego de esto termina el pavimento. 4,5 km más allá está la entrada al Parque, por camino de ripio en regular estado, circular a baja velocidad y con precaución. (Debe pasar 4 puentes que cruzan el estero Nonguén: Las Carmelitas, Gallegos, Seguel y Puente Lara)',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Reserva-nacional-nonguen-0.jpg',
     },
     {
         id:45,
@@ -581,7 +582,7 @@ const lugar = [
         servicios:'La Reserva Nacional Ralco cuenta con senderos y áreas para observar la flora y fauna.',
         accesos:'A la unidad se accede por el camino que une la ciudad de Los Ángeles con Santa Bárbara, para luego continuar hasta Ralco-Alto Biobío, pasando por las comunidades de Quepuca-Ralco y Ralco Lepoy',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://i4.visitchile.com/img/GalleryContent/4399/Ralco.jpg',
     },
     {
         id:46,
@@ -594,7 +595,7 @@ const lugar = [
         servicios:'Terrenos de los parceleros aledaños ofrecen alimentación, camping, alojamiento y transporte dentro de la isla',
         accesos:'El acceso a la isla es mediante taxi aéreo (avioneta), existiendo un aeródromo ubicado en el sector sur, fuera de los límites de la Reserva Nacional, no existiendo un servicio regular entre el continente y la isla por lo cual el turista debe contactar estos servicios personalmente.',
         fase:'Medio impacto sanitario',
-        img:'',
+        img:'https://www.gochile.cl/fotos/header/64611-12671794_969950169753166_293352419155488532_o.jpg',
     },
     {
         id:47,
@@ -607,7 +608,7 @@ const lugar = [
         servicios:'No presenta ninguna infraestructura para los visitantes por el momento. Es una reserva en implementación.',
         accesos:'En la actualidad el predio posee dos accesos posibles. El primero y más sencillo es ingresar desde el norte, por el sector Alto Biobío mediante la utilización de una balsa apostada en el sector Balseadero, ubicado en el km 40 del camino Santa Bárbara-Alto Biobío, apto para vehículos livianos. Hay que considerar que por condiciones climáticas la unidad permanece cerrada al público desde el 1 de mayo al 31 de octubre del 2018.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://images.latribuna.cl/2018/12/09-12-2016_19-23-02web.jpg',
     },
     {
         id:48,
@@ -620,7 +621,7 @@ const lugar = [
         servicios:'El Parque Nacional Tolhuaca cuenta con senderos y camping.\nPrecio diario del camping:\nTemporada alta: nacional $14.000, extranjero $20.000.\nTemporada baja: nacional $7.000, extranjero $10.000.',
         accesos:'El principal acceso es por la carretera panamericana 5 Sur-Inspector Fernández-San Gregorio-portería del parque. Otra ruta es desde Curacautín-termas de Tolhuaca-portería del parque',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.quehacerenchile.cl/wp-content/uploads/2020/06/Parque-Nacional-Tolhuaca-cielo-despejado.jpg',
     },
     {
         id:49,
@@ -633,7 +634,7 @@ const lugar = [
         servicios:'El Parque Nacional Nahuelbuta cuenta con zona de camping, senderos y centro de información. Tarifas de sitio de camping: TEMPORADA ALTA: nacional: $ 14.000, extranjero: $ 18.000; TEMPORADA BAJA: nacional: $ 6000, extranjero: $ 8000',
         accesos:'El principal acceso es la ruta es la que parte de Angol a Vegas Blancas. Por el oeste se accede desde la localidad de Cañete por Butamalal - El Chacay – Cayucupil. Por el norte se accede desde Angol por camino a Cotico.',
         fase:'Bajo impacto sanitario',
-        img:'',
+        img:'https://finde.latercera.com/wp-content/uploads/2020/11/Parque-Nahuelbuta.jpg',
     },
     {
         id:50,
@@ -646,7 +647,7 @@ const lugar = [
         servicios:'El Parque Nacional Huerquehue cuenta con senderos, áreas de picnic, mirador y camping',
         accesos:'La unidad está distante a 135 km de Temuco. El principal acceso es la ruta que parte de Pucón por camino asfaltado al lago Caburgua: antes de llegar al lago se debe seguir el camino a Paillaco.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.gochile.cl/fotos/full/43177-pn-huerquehue-chris_c_m.jpg',
     },
     {
         id:51,
@@ -659,7 +660,7 @@ const lugar = [
         servicios:'El Parque Nacional Villarrica cuenta con canchas de esquí, senderos, áreas de picnic, mirador, camping y arriendo de caballos.',
         accesos:'Dista a 112 km de Temuco a Pucón, por camino internacional al paso Maluil-Malal. Existen varias vías para acceder a la Unidad; la primera es de Pucón a Rucapillán, la segunda de Pucón a Quetrupillán y la tercera desde Pucón por camino internacional (ruta 199) a Puesco.',
         fase:'Medio impacto sanitario',
-        img:'',
+        img:'https://www.doyouknowchile.cl/wp-content/uploads/2020/10/Parque-Nacional-Villarrica-Revista-digital-Do-you-know-Chile-1.jpg',
     },
     {
         id:52,
@@ -672,7 +673,7 @@ const lugar = [
         servicios:'El Parque Nacional Conguillío cuenta en temporada estival con venta de alimentos, arriendo de kayak y botes, senderos y circuitos, arriendo de cabañas, sitios de camping y áreas de picnic, las que se encuentran abiertas hasta mediados de otoño dependiendo de las condiciones climáticas. Para reservas de camping y cabañas escribir a: reservas@sendasconguillio.cl',
         accesos:'A la unidad se puede acceder desde el sur por la ruta Temuco-Cunco-Melipeuco al sector Truful truful, desde el norte por Victoria o Lautaro-Curacautín al sector Captren. Por el lado occidental desde Temuco-Cajón-Vilcún-Cherquenco al Sector Los Paraguas.',
         fase:'Bajo impacto sanitario',
-        img:'',
+        img:'https://i4.visitchile.com/img/GalleryContent/4380/Parque_Nacional_Conguillio.jpg',
     },
     {
         id:53,
@@ -685,7 +686,7 @@ const lugar = [
         servicios:'No posee servicios',
         accesos:'Dista a 40 km de la ciudad de Pucón y a 162 km de Temuco, la capital regional. El principal acceso es la ruta internacional 199-CH de Pucón a Puesco, paso Mamuil Malal (Argentina). Este camino está asfaltado desde Pucón hasta Curarrehue y el resto es de ripio y transitable todo el año, salvo en algunos sectores al interior de la unidad durante el invierno, por acumulación de nieve. Para acceder a Quelhue se toma camino a Pucón-Tres Esquinas-pasarela vehicular-río Trancura-comunidad Huaiquifil. Para acceder a Quilembre se toma el camino de Pucón al lago Caburgua, desviándose hacia el sector playa Blanca y este al interior a través de una huella. Para acceder a Hualalafquén se toma camino de ripio desde Curarrehue directamente al sector, con una distancia de 12 km. Otra vía también parte de Curarrehue por camino hacia la localidad fronteriza de Reigolil, cuya distancia es de 40 km y de allí se desvía por camino de tierra a Hualalafquén.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://viajexchile.files.wordpress.com/2020/08/reserva-nacional-hualalafquen.png',
     },
     {
         id:54,
@@ -698,7 +699,7 @@ const lugar = [
         servicios:'No posee servicios',
         accesos:'Dista a 180 km de Temuco, la capital regional. El principal acceso parte de la Ruta 5, desde la ciudad de Collipulli por el camino a Jauja-Luján y desde aquí por el camino Jauja-Pemehue o Lujan a Niblinto (75 km). También se accede desde Victoria por el camino Inspector Fernández, Faja San Juan-Niblinto (50 km). Estos son de ripio y transitables, preferentemente, en la época estival. En invierno es solo para vehículos de doble tracción.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://araucaniasinfronteras.cl/wp-content/uploads/2016/08/reserva-villarrica.jpg',
     },
     {
         id:55,
@@ -711,7 +712,7 @@ const lugar = [
         servicios:'La Reserva Nacional China Muerta cuenta con senderos.',
         accesos:'Desde Temuco, dirigirse a Melipeuco. De esa localidad debe ir a 35 km con dirección hacia la cordillera, por el camino conocido como Cabeza de Indio.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.araucaniaandina.com/wp-content/uploads/2019/04/reserva.nacional.china_.muerta.jpg',
     },
     {
         id:56,
@@ -724,7 +725,7 @@ const lugar = [
         servicios:'La Reserva Nacional Alto Biobío cuenta con senderos y permite visualizar especies de flora y fauna.',
         accesos:'A la unidad se puede acceder por la ruta internacional de Victoria o Lautaro-Curacautín-Malalcahuello-túnel Las Raíces-Lonquimay-Liucura-paso Pino Hachado.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'http://araucaniaviva.cl/wp-content/uploads/2017/12/reserva-nacional-alto-bio-bio.jpg',
     },
     {
         id:57,
@@ -737,7 +738,7 @@ const lugar = [
         servicios:'La reserva cuenta con miradores, senderos y servicios sanitarios básicos. No cuenta con zonas para acampar.',
         accesos:'El principal acceso a la unidad es por la ruta 5 sur desde Victoria a Curacautín, y desde allí 30 kms hasta la localidad de Malalcahuello, siendo ésta ubicada en el km 87,5 por la Ruta Internacional 181. Es un camino totalmente asfaltado.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'http://img.soy-chile.cl/Fotos/2019/01/27/file_20190127120157.jpg',
     },
     {
         id:58,
@@ -750,7 +751,7 @@ const lugar = [
         servicios:'El Monumento Natural Cerro Ñielol, cuenta con senderos, área de picnic, mirador y centro ambiental.',
         accesos:'A la unidad se puede acceder por la calle Arturo Prat, siendo un camino de subida y otro de bajada pavimentados.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.temuco.cl/wp-content/uploads/2018/10/20150820-_MG_2710.jpg',
     },
     {
         id:59,
@@ -763,7 +764,7 @@ const lugar = [
         servicios:'El Parque Nacional Alerce Costero cuenta con senderos, zona de merienda y servicios sanitarios. Su zona de campismo es de libre acceso.',
         accesos:'La ciudad más cercana al área del Parque es Corral y se encuentra ubicada a una distancia de 19 km hasta la primera guardería (Catrilelfu). El centro urbano de importancia más cercano es Valdivia, la capital de la región, a una distancia de 74 km, mientras que La Unión se encuentra a 47 km de La Romaza y Mirador.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.noticiaslosrios.cl/wp-content/uploads/2018/01/parque-alerce-costero.jpg',
     },
     {
         id:60,
@@ -776,7 +777,7 @@ const lugar = [
         servicios:'La Reserva Nacional Mocho Choshuenco cuenta con abundantes recursos paisajísticos y bellezas escénicas como los lagos Panguipulli, Neltume, Pirihueico, Riñihue y Ranco. Posee lugares aptos para el senderismo, montañismo y esquí de travesía. En el acceso oeste cuenta con un refugio de montaña.',
         accesos:'Se accede a través de un camino que bordea el lago Panguipulli hasta el pueblo de Choshuenco, donde se toma el camino hacia el sector de Enco. Una vez en este lugar, el camino se desvía a la izquierda, hacia la reserva.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.choshuenco.cl/images/2021/08/27/mocho-choshuenco-03.jpg',
     },
     {
         id:61,
@@ -789,7 +790,7 @@ const lugar = [
         servicios:'Áreas para acampar disponibles: sector norte (caleta Gonzalo): río Caleta Gonzalo, Volcán, Cascada Escondida, Lago Blanco y Lago Negro. Sector sur (El Amarillo): Camping Grande y Vestisquero. El valor es de $6.000 pesos por persona, por noche. Ingreso por orden de llegada.',
         accesos:'Para acceder al Parque Nacional Pumalin Douglas Tompkins, puede efectuarlo directamente a través de su vehículo llegando hasta la localidad de Hornopirén distante a 110 km al sur de la Ciudad de Puerto Montt, donde se debe tomar una barcaza de Empresa Somarco, la cual realiza viajes diarios zarpando a las 10:30 desde Hornopirén todos los días de la semana (el horario está sujeto a variaciones, se sugiere consultar directamente con la empresa que presta el servicio). Después de 3,5 horas de recorrido la barcaza llega hasta el sector denominado Leptepu, donde se debe recorrer un tramo de 10 km de carretera, para luego tomar una segunda barcaza en el Sector de Fiordo Largo. Tras un recorrido de 40 minutos, la embarcación llega finalmente hasta el Sector de Caleta Gonzalo, área donde se inicia nuevamente la Carretera Austral al sur y donde se concentra la mayor infraestructura turística del Parque Nacional Pumalín Douglas Tompkins.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://www.paiscircular.cl/wp-content/uploads/2020/12/DkLzmBUX4AEuowT-1024x684.jpg',
     },
     {
         id:62,
@@ -802,7 +803,7 @@ const lugar = [
         servicios:'Sin camping por deterioro en la red de agua de los sitios, ocasionado por erupción del volcán Calbuco. Existen otras alternativas privadas de hospedaje aledañas al parque, en el sector de Ensenada. También es posible encontrar hoteles y refugios privados destinados para el uso publico, áreas de acampar y merendar en los sectores de Petrohué y Ensenada, el centro de montaña y esquí Volcán Osorno. Teléfono, internet: Ensenada y Puerto Varas Primeros auxilios: Posta Petrohué dentro del Parque y Villa Ensenada. Alojamiento: Villa Ensenada y Puerto Varas. Carabineros de Chile: tenencia de Carabineros Casa Pangue en sector Peulla, al interior del Parque y tenencia de Carabineros Ensenada. Bencina: Villa Ensenada y Puerto Varas. Venta de alimentos: Villa Ensenada para abastecimiento de alimentos.',
         accesos:'Este parque nacional se ubica en la cordillera de los Andes, 72 km al oriente de la ciudad de Puerto Montt, colindando al oeste con la república Argentina. Se accede a través de la ruta internacional 225 Puerto Varas-Ensenada y Petrohué que une las ciudades de Puerto Varas (Chile) y Bariloche (Argentina), atravesando el lago Todos los Santos. Medios de movilización pública Empresas que llegan a distintos sectores del parque: Peulla, Saltos del Petrohué, Ensenada. Buses Turismo Andino del Sud (Salto del Petrohué-Peulla, vía catamarán), Buses Interlagos (Ensenada-Petrohué), Buses JM (hasta Petrohué).',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Volcano_Osorno_and_Petrohu%C3%A9_waterfalls.JPG',
     },
     {
         id:63,
@@ -815,7 +816,7 @@ const lugar = [
         servicios:'Las concesiones de parque son dos: Turística Aguas Calientes (www.termasaguascalientes.cl), reservas@termasaguascalientes.cl) y la Comunidad Indígena de Ñielay Mapu en Anticura (www.anticura.com, contacto@anticura.com). Teléfono: sector Aguas Calientes, dispone de teléfono. Hotel Termas de Puyehue a 4 km de Aguas Calientes dispone de teléfono e internet. Primeros auxilios: posta Puyehue a 6 km de Aguas Calientes. Alojamiento: Hotel Termas de Puyehue y otras cabañas. Carabineros de Chile: Aduana de Pajaritos dentro del Parque por la ruta CH 215, ubicada en el km 102 y en el poblado de Entre Lagos, distante 30 km de Aguas Calientes. Bencina: Ñilque, a 11 km del parque. Alimentos: Entre Lagos, a 30 km de Aguas Calientes.',
         accesos:'Se accede a través de la Ruta Internacional CH 215 que une las ciudades de Osorno (Chile) y Bariloche (Argentina), la cual se encuentra asfaltada en su totalidad. En el km 76 de la ruta se encuentra la variante U-485 que se dirige al sector de Aguas Calientes y Antillanca.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Waterfall_puyehue.jpg',
     },
     {
         id:64,
@@ -828,7 +829,7 @@ const lugar = [
         servicios:'La unidad no cuenta con servicios.',
         accesos:'Las vías de acceso son terrestres, marítimas y aéreas. Por tierra, el acceso norte es por el Camino Longitudinal Austral que une Puerto Montt a la ciudad de Hornopirén y por el sur, por el mismo camino que conecta a Chaitén con Coyhaique y Villa O’Higgins en la Región de Aysén. La vía marítima, la más utilizada, es a través de las empresas Transmarchilay y Navimag. La vía aérea: existen aviones comerciales de pocos pasajeros provenientes de Puerto Montt y que aterrizan en aeródromos en sectores alejados de Chaitén.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://patagoniaverde.org/web/wp-content/uploads/2020/05/Corcovado.jpg',
     },
     {
         id:65,
@@ -841,7 +842,7 @@ const lugar = [
         servicios:'El Parque Nacional Chiloé cuenta con áreas de merendar, áreas de acampar, senderos de excursión, miradores y refugios rústicos. Existe alternativa para acampar en la comunidad indígena de Chanquín y cuenta con el equipamiento básico y precios módicos.',
         accesos:'Sector Cucao-Chanquín: tomar ruta 5 desde Castro hacia el sur hasta el cruce Notuco (24 km, aprox.) Conducir a Cucao 34,5 km. (Recorrido: 90 min. aprox.) Sector Chepu: desde Ancud por la ruta 5 al sur, hasta el cruce río Chepu, tramo de 25 km (30 min). Continúa al oeste por camino ripiado hasta Puerto Anguay (14 km). Desde ahí, embarcarse en bote aguas abajo por río Chepu, continuar a pie por sendero costero (14 km) hasta llegar al río Lar, lugar donde se localiza la casa del guardaparques (5 horas, aprox.) Sector Abtao: desde Castro en dirección norte por la ruta 5 hasta Llau Llao, para tomar el camino al oeste, pasando por el puente Puchagrán, cruzando el río Chilcón, para llegar finalmente al fundo Pichihue (12 km). Luego de 2 horas de recorrido desde el fundo, se encontrará en área del parque. Continúa por un sendero que cruza transversalmente la cordillera de Piuchén (8 horas), llegando finalmente a la desembocadura de los ríos Curi y Abtao. Existen locomoción pública a Cucao.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://loslagos.travel/wp-content/uploads/2021/02/chiloe.jpg',
     },
     {
         id:66,
@@ -854,7 +855,7 @@ const lugar = [
         servicios:'Existen dos miradores: uno en Correntoso y otro en el sendero al lago Sargazo, el parque no cuenta con zonas de pesca en su interior ni en zonas adyacentes (lago Chapo y estuario de Reloncaví). Los mesones de picnic están funcionando en los sectores Sargazo y Chaica. Servicios fuera del área: primeros auxilios: posta Correntoso a 2,5 km de la oficina de guardaparque y posta de lago Chapo a 14 km del pueblo Correntoso, posta de Lenca a 9 km del parque y posta Chaicas a 10 km del parque. Venta de alimentos: se encuentra en los sectores de Correntoso, Lenca y Metri. Carabineros de Chile: retén de Correntoso.',
         accesos:'A través del camino público V-65 (Puerto Montt-Correntoso-lago Chapo), en un recorrido de 46 km. Desde la localidad de Correntoso a la guardería del parque hay 2,5 km. Por el sur, el acceso se efectúa por la ruta que une a Puerto Montt y Lenca (36 km) .El tiempo de viaje es de 45 minutos. A 40 km de Puerto Montt, por la Carretera Austral, se ubica Lenca, desde donde nace un camino de penetración que se interna en el parque por el valle del río Chaicas, hacia la laguna Chaiquenes (15 km). El camino es transitable exclusivamente para vehículos de doble tracción. En el km 7 se ubica la guardería del sector Chaicas. Desde Puerto Montt pasado el puente Chamiza, camino a Automó, se puede acceder al sector de Sargazo en aproximadamente 45 minutos. Locomoción pública: Buses Fierro, Jordán y Quillaipe: realiza trayecto a Chaicas y caleta La Arena, Buses Fierro: destino al pueblo de Correntoso. Buses JB: salidas diarias al sector de Correntoso-Lago Chapo.',
         fase:'Medio impacto sanitario',
-        img:'',
+        img:'https://partamos.cl/libs/img/Chile/X_LosLagos/lugar_537_01032019060334689.jpg',
     },
     {
         id:67,
@@ -867,7 +868,7 @@ const lugar = [
         servicios:'En el extremo suroeste del lago General Pinto se encuentra el área de campismo y meriendas y los senderos al volcán Yates y del lago General Pinto Concha. Por otro lado, en el sector de Chaqueihua Alto (comienzo del sendero de acceso) existe un área de informaciones del parque nacional, donde por medio de un panel se entrega la información básica referente a la unidad y funcionamiento. Es posible obtener otros servicios en sectores cercanos al parque como: primeros auxilios: consultorio de Hornopirén a 19,7 km del parque, venta de alimentos: Hornopirén y Puerto Montt, teléfono público: Hornopirén.',
         accesos:'Es posible acceder utilizando la Carretera Austral desde Puerto Montt hasta caleta La Arena, para luego realizar una travesía por el estuario Reloncaví hasta caleta Puelche. Luego se continúa por la misma carretera hasta llegar a Hornopirén. La distancia total del recorrido es de 107 km. Desde Hornopirén se continua hacia el sector Chaquihua Alto por ruta en dirección al parque nacional por aproximadamente 10 km hasta el río León y desde aquí se continua en sendero por un total de 6,8 km hasta llegar al límite del parque en un recorrido que dura aproximadamente 4 hrs., dependiendo del ritmo de caminata. Medios de movilización pública Buses Kemelbus y Buses Hornopirén realizan el trayecto desde Puerto Montt a Hornopiren. (4 horas, aproximadamente).',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://patagoniaverde.org/web/wp-content/uploads/2020/02/Hornopiren.jpg',
     },
     {
         id:68,
@@ -880,7 +881,7 @@ const lugar = [
         servicios:'La unidad cuenta con servicios higiénicos en el sector de la Guardería.',
         accesos:'Desde Puerto Montt tomar la ruta 7 (Carretera Austral) llegar hasta el puente Chamiza: antes de ingresar al puente, girar a la izquierda y tomar la ruta V-65 con destino a Lago Chapo, avanzar aproximadamente 25 kilómetros hasta el sector de Capilla, pasar los puentes sobre el río Blanco, continuar derecho unos 200 metros y tomar dirección norte 2 kilómetros aproximadamente hasta el término del camino. Caminar por el sendero unos 2 kilómetros hasta llegar a la Guardería, donde debe registrarse.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://i3.visitchile.com/img/GalleryContent/4397/slider/Llanquihue.jpg',
     },
     {
         id:69,
@@ -893,7 +894,7 @@ const lugar = [
         servicios:'La reserva cuenta con dos refugios, uno de ellos ubicado en el sector de Vista Hermosa, el que posee mínimas comodidades para la pernoctación y es utilizado por personal transitorio de CONAF durante el periodo estival. Además, se dispone de otro en el sector de Zancudo.',
         accesos:'El acceso a la Reserva Nacional es difícil ya que dada la ubicación geográfica en la que se encuentra inserta no existen caminos transitables en forma permanente, se accede desde la localidad de Palena hasta el sector valle California por un camino de ripio de aproximadamente 20 km, desde allí se continúa por un sendero solo apto para caballos hasta llegar al lago Palena en un total de 25 km. El viaje a caballo dura alrededor de 6 horas. Otra alternativa es desde Palena hasta el sector El Tigre, por camino de ripio (7 km, aprox.), desde ahí continuar por un sendero apto para caballos para llegar al sector El Azul (aprox. 3 horas), para continuar al lago Palena 3 a 3,5 horas. Otras opciones son: el acceso vía aérea, mediante la utilización de hidroaviones o helicópteros; o acceder por territorio argentino a través del lago Palena.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://patagoniaverde.org/web/wp-content/uploads/2020/05/IMG_20210508_140830-1380x1035.jpg',
     },
     {
         id:70,
@@ -906,7 +907,7 @@ const lugar = [
         servicios:'No cuenta con infraestructura de servicios.',
         accesos:'Se accede desde la localidad de Futaleufú por el camino ripiado hacia el paso fronterizo homónimo, en un tramo aproximado de 2500 metros, desviándose hacia el sur hasta la pasarela vehicular que cruza el río Futaleufú y que permite el acceso hacia el valle del río Chico y sector Las Escalas, en un trayecto de 1 km, aproximado. En condiciones climáticas malas el trayecto se dificulta, por lo que se recomienda transitar con vehículos de doble tracción.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://i4.visitchile.com/img/GalleryContent/4436/slider/Reserva_Nacional_Futaleufu.jpg',
     },
     {
         id:71,
@@ -919,7 +920,7 @@ const lugar = [
         servicios:'El Monumento Natural Lahuen Ñadi cuenta con un sector para picnic frío, playa de estacionamiento y servicios higiénicos.',
         accesos:'La unidad se localiza aproximadamente a unos 13 km de Puerto Montt y el acceso principal se realiza desde la entrada al condominio Lagunitas, en la ruta 226 (al aeropuerto El Tepual). Desde allí se ingresa hacia el norte unos 3 km por camino del predio El Rincón, hasta la entrada del monumento.',
         fase:'Medio impacto sanitario',
-        img: '',
+        img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/18/df/5d/parque-lahuen-nadi.jpg?w=1200&h=-1&s=1',
     },
     {
         id:72,
@@ -932,6 +933,7 @@ const lugar = [
         servicios:'En la caleta de Puñihuil se ofrecen servicios de navegación que cada 20 minutos realizan una travesía por los alrededores de los islotes, que se ubican a una distancia de entre 100 a 700 m de la costa.',
         accesos:'Su principal acceso lo constituye la Ruta W-20 que une las localidades de Ancud y Pumillahue, a través de un recorrido de 20 km, por un camino ripiado transitable durante todo el año. En el cruce de Piedra Rum, tomar el desvío hacia el oeste, el que después de 3 km llega a la playa de caleta de Puñihuil.',
         fase:'Medio impacto sanitario',
+        img:'https://patrimonio.bienes.cl/wp-content/uploads/2020/05/3-4.jpg'
     },
     {
         id:73,
@@ -944,7 +946,7 @@ const lugar = [
         servicios:'Sector Jeinimeni: camping El Silencio $3000 p/persona la noche, campismo en Ruta de Los Valles (Raleigh, Valle Hermoso y Ruta Avilés) $6000 p/persona la ruta completa, y picnic. Sector Lago Cochrane (Tamango): Sitios de camping cerrados hasta nuevo aviso, pago con tarjeta habilitado. Sector Valle Chacabuco: Lodge, Restaurante, sitios de camping cerrados y museo cerrado. El Restaurant y Lodge depende su funcionamiento del Fundación Tompkins Conservation, estando operativo desde el 1ero de Noviembre, contacto para consultas del Lodge y Restaurant en reservas@vallechacabuco.cl. El horario de atención del Museo (CERRADO) es de Lunes a Domingo de 9:30 - 13:00 y 14:00- 16:30 hrs.',
         accesos:'El Parque Nacional Patagonia se ubica aprox. 315 kms. al sur de la ciudad de Coyhaique, por la Carretera Austral. Para acceder al sector Valle Chacabuco deberás avanzar 17 kms. antes de llegar a Cochrane, encontrarás el cruce hacia la Entrada Baker, el que debes tomar hacia la izquierda (Este) por unos 11 kms. Si quieres acceder al sector de Tamango, debes llegar primero a Cochrane y desde la Plaza de Armas, dirigirte por 4,3 kms. hacia el Noroeste. Para acceder al sector de Jeinimeni dirígete a Chile Chico, desde donde debes tomar la ruta X-753 (misma que lleva al aeródromo) por alrededor de 65 kms. hasta llegar al Lago Jeinimeni.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/7/74/Jeinimeni_Lago.jpg',
     },
     {
         id:74,
@@ -957,7 +959,7 @@ const lugar = [
         servicios:'Parque Nacional Isla Guamblin permite a sus visitantes observar toda la naturaleza que le rodea, encontrando paisajes como las loberas y los anidamientos de aves marinas.',
         accesos:'Para llegar a la unidad sus vías de acceso son únicamente marítimas.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://patrimonio.bienes.cl/wp-content/uploads/2020/05/Isla-Guamblin-1.jpg',
     },
     {
         id:75,
@@ -970,7 +972,7 @@ const lugar = [
         servicios:'Pesca, montañismo, caminatas, observación flora y fauna, fotografía, navegación, recorrido cultural. Pueblos cercanos: La Junta, Puerto Puyuhuapi y Puerto Cisnes. Zona de camping: $ 5000 por persona. Informaciones de concesión: contacto@experienciaaustral.com o www.experienciaaustral.com.',
         accesos:'Al parque se puede llegar directamente por la Carretera Austral (Ruta 7), ruta que lo atraviesa en buena parte de su geografía',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://chileestuyo.cl/wp-content/uploads/2020/08/ventisquero-colgante.jpeg',
     },
     {
         id:76,
@@ -983,7 +985,7 @@ const lugar = [
         servicios:'En el Parque Nacional Laguna San Rafael se puede hacer navegación, pesca, excursión, observación flora y fauna, fotografía y montañismo.',
         accesos:'A la unidad se puede acceder de forma aérea o marítima, aunque se espera que en un breve plazo finalice la construcción de un camino proveniente desde la localidad de Puerto Tranquilo.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://i4.visitchile.com/img/GalleryContent/4431/Laguna_San_Rafael.jpg',
     },
     {
         id:77,
@@ -996,7 +998,7 @@ const lugar = [
         servicios:'En la XII Región el acceso es fundamentalmente vía marítima, por lo cual las actividades que se pueden desarrollar en él aún son restringidas. Navegación a los glaciares que incluye desembarco, en esta área se encuentra habilitado un sendero de 1 km. siendo una ruta de fácil acceso, pudiendo efectuar una caminata de 1 hora a 1 hora y media. También se realizan actividades de kayak.',
         accesos:'A la unidad se puede acceder sólo vía marítima desde Punta Arenas, Puerto Natales o Puerto Montt mediante viajes regulares por circuitos turísticos preestablecidos para la navegación que ofrecen diferentes agencias de viajes.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://laderasur.com/content/uploads/2019/04/scarlett-araya-patagonia-07.jpg',
     },
     {
         id:78,
@@ -1009,6 +1011,7 @@ const lugar = [
         servicios:'El Parque Nacional Isla Magdalena, ofrece a sus visitantes la posibilidad de apreciar el entorno natural propio del lugar, teniendo como atractivo máximo, los pingüinos, una especies en estado de protección.',
         accesos:'Sus vías de accesos son únicamente marítimas.',
         fase:'Bajo impacto sanitario',
+        img:'https://www.rewildingchile.org/web/wp-content/uploads/2021/08/parque-nacional-isla-magdalena.jpg'
     },
     {
         id:79,
@@ -1021,7 +1024,7 @@ const lugar = [
         servicios:'Los costos de los servicios incluyen la tarifa de acceso.\n\n- Camping Laguna Chiguay: Adulto nacional $10.000, adulto mayor nacional $6.000, adulto extranjero $12.000, adolescente nacional o extranjero $8.000. Quincho $50.000 diario.\n- Sendero Buena Vista: Adulto nacional $6.000, adulto mayor nacional $2.000, adulto extranjero $10.000, adolescente nacional o extranjero $5.000.\n- Sendero Las Horquetas: Adulto nacional $27.000, adulto mayor nacional $22.000, adulto extranjero $29.000, niños 12 a 17 años $24.000.\n- Sendero Estero Parada (por el día): Adulto nacional $14.000, adulto mayor nacional $10.000, adulto extranjero $18.000, niños 12 a 17 años $12.000.\n- Sendero Mirador Laguna Castillo: Adulto nacional $14.000, capacidades diferentes nacional $12.000, adulto extranjero $18.000, capacidades diferentes extranjero $14.000.',
         accesos:'A la unidad se puede acceder por la Carretera Austral, que atraviesa la unidad 64 km al sur de la ciudad de Coyhaique',
         fase:'Bajo impacto sanitario',
-        img:'',
+        img:'https://www.terram.cl/biodiversidad/wp-content/uploads/sites/3/2017/10/co-castillo-1024x671.jpg',
     },
     {
         id:80,
@@ -1034,7 +1037,7 @@ const lugar = [
         servicios:'No posee.',
         accesos:'Marítimo, desde caleta Tortel.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.quehacerenchile.cl/wp-content/uploads/2016/04/RESERVA-NACIONAL-KATALALIXAR-7.png',
     },
     {
         id:81,
@@ -1047,7 +1050,7 @@ const lugar = [
         servicios:'No posee servicios. Solo un refugio turístico.',
         accesos:'A 30 Kilómetros de Coyhaique por ruta R - 7 a Villa Ortega y desde ahí, seguir bifurcación por ruta X - 445 hacia Ñirehuao, a 15 kilómetros.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.info4camper.com/fotos/visitar/cl/large/photos1-2519-coihaique_coyhaique_informacion_general.jpg',
     },
     {
         id:82,
@@ -1060,7 +1063,7 @@ const lugar = [
         servicios:'Horario de inicio de visitas: 9.00 hrs. Horario de término de visitas: 14.30 (hora tope para ingreso a la reserva). 16.00 horas para el retiro desde la reserva y posterior cierre de la unidad.',
         accesos:'Camino Coyhaique-Puerto Aysén (Ruta 240), a 5 km aprox. desde la Plaza de Armas de Coyhaique, el camino hasta el acceso a la reserva es ripiado.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/fc/6f/cd/reserva-nacional-coyhaique.jpg?w=1200&h=-1&s=1',
     },
     {
         id:83,
@@ -1073,7 +1076,7 @@ const lugar = [
         servicios:'En esta unidad es posible realiza actividades de campismo, excursión, fotografías, montañismo, observación de flora y fauna.',
         accesos:'Terrestre, por carretera pavimentada que une las ciudades de Coyhaique y Puerto Aysén.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.gochile.cl/fotos/header/22999-rio-simpson-gonzalo-vergara.jpg',
     },
     {
         id:84,
@@ -1086,7 +1089,7 @@ const lugar = [
         servicios:'La unidad no posee infraestructura.',
         accesos:'Marítimo.',
         fase:'Bajo impacto sanitario',
-        img:'',
+        img:'https://patrimonio.bienes.cl/wp-content/uploads/2020/05/las-guaitecas.jpg',
     },
     {
         id:85,
@@ -1099,7 +1102,7 @@ const lugar = [
         servicios:'En ella es posible practicar senderismo',
         accesos:'A 270 kilómetros al norte de Coyhaique, por Ruta X-7 tomar bifurcación en la localidad de La Junta.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://patrimonio.bienes.cl/wp-content/uploads/2020/05/lago-rosselot.jpg',
     },
     {
         id:86,
@@ -1112,7 +1115,7 @@ const lugar = [
         servicios:'Por motivos de seguridad no se autoriza su estadía o permanencia más de un tiempo prudente como para descansar o tomar fotografías, ya que existe peligro de derrumbes en el lugar.',
         accesos:'Ubicada en el km 120 del camino longitudinal Austral Nort',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://patrimonio.bienes.cl/wp-content/uploads/2020/05/lago-las-torres.jpg',
     },
     {
         id:87,
@@ -1125,7 +1128,7 @@ const lugar = [
         servicios:'Camping, excursión, senderismo, interpretación de la naturaleza.',
         accesos:'A través de ruta X-25 en bifurcación de ruta X-7 Camino Austral en Villa Amengual hacia Villa Tapera.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.conaf.cl/wp-content/files_mf/cache/th_4adc6ebe3e2b0d2fbfea201316181ee9_Reserva-Nacional-Lago-Carlota-Provincia-de-Coyhaique1.jpg',
     },
     {
         id:88,
@@ -1138,7 +1141,7 @@ const lugar = [
         servicios:'En el Monumento Natural Dos Lagunas se puede realizar observación de flora y fauna, senderismo y sitios para merienda (habilitados con mesón, banca y fogón en el piso). El pago de la entrada por persona da derecho a sitio merienda',
         accesos:'A la unidad se puede acceder desde Coyhaique a través del camino internacional a Coyhaique Alto.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://patrimonio.bienes.cl/wp-content/uploads/2020/05/4-3.jpg',
     },
     {
         id:89,
@@ -1151,7 +1154,7 @@ const lugar = [
         servicios:'Unidad sin servicios',
         accesos:'Marítimo',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://patrimonio.bienes.cl/wp-content/uploads/2020/05/4-1.jpg',
     },
     {
         id:90,
@@ -1164,7 +1167,7 @@ const lugar = [
         servicios:'El Parque Nacional Pali Aike cuenta con senderos para realizar caminatas, áreas de merienda o descanso para detenerse momentáneamente (dentro del Parque no se permite acampar), Centro de Información y baños públicos. La Unidad permite a sus visitantes disfrutar del paisaje conformado por conos volcánicos de baja altura, cuevas naturales, abundantes cráteres y campos de lava que asemejan un paisaje lunar y de la flora y fauna que rodea el lugar.',
         accesos:"A la unidad se puede acceder por la ruta internacional CH- 255, que va al Paso Fronterizo Monte Aymond, en el km 168 tomar el desvío a Punta Delgada (Villa O'Higgins). Desde este punto son 28 km de carpeta de ripio hasta el parque.",
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://casacozy.cl/wp-content/uploads/2015/11/Parque-Pali-Aike.jpg',
     },
     {
         id:91,
@@ -1177,20 +1180,7 @@ const lugar = [
         servicios:'Cuenta con un pequeño muelle para botes que permite el desembarco de personas en la Isla Hornos. Desde este lugar se extiende una pasarela peatonal que se interna en la isla hasta llegar al punto más alto, donde se ubica el Faro Hornos y la Alcaldía de Mar más austral del mundo.',
         accesos:'Se puede acceder por vía marítima o bien vía aérea desde Punta Arenas hasta Puerto Williams, desde donde se puede acceder al Parque en embarcaciones privadas. O bien desde Punta Arenas con empresas que realizan viajes programados por circuitos turísticos preestablecidos para la navegación y que consideran un desembarco en la isla Hornos.',
         fase:'Bajo impacto sanitario',
-        img: '',
-    },
-    {
-        id:92,
-        region: 'XVI',
-        nombre:"Parque Nacional Bernardo O'Higgins",
-        descripcion:"El Parque Nacional Bernardo O'Higgins administrativamente corresponde a las comunas de Tortel (provincia del Capitán Prat, Región de Aysén) y Puerto Natales (provincia de Última Esperanza, Región de Magallanes y Antártica Chilena). En esta última provincia está la mayor extensión del parque. Fue creado el 22 de julio de 1969, por DS n.º 264 del Ministerio de Agricultura. Ha sufrido posteriores modificaciones, por causa de diferentes decretos.",
-        horarios:'No aplica',
-        tarifas:'Temporada alta (octubre-abril):\nNiño/a nacional (edad igual e inferior a los 11 años) ingreso liberado. \nAdolescente nacional (12 a 17 años) $2.700. \nAdulto nacional $5.400. \nAdulto mayor nacional (sobre 60 años) ingreso liberado. \nNiño/a nacional discapacitado/a (edad igual e inferior a los 11 años) ingreso liberado. \nAdolescente nacional discapacitado/a (12 a 17 años) ingreso liberado. \nAdulto nacional discapacitado/a $2.700. \nAdulto mayor nacional discapacitado/a (sobre 60 años) ingreso liberado. \nNiño/a extranjero/a (edad igual e inferior a los 11 años) ingreso liberado. \nAdolescente extranjero/a (12 a 17 años) $5.400. \nAdulto y adulto mayor extranjero/a (incluye en situación de discapacidad) $10.600.  \nTemporada baja (mayo-septiembre)se encuentra cerrado a visitantes.',
-        senderos:'No aplica',
-        servicios:'En la XII Región el acceso es fundamentalmente vía marítima, por lo cual las actividades que se pueden desarrollar en él aún son restringidas. Navegación a los glaciares que incluye desembarco, en esta área se encuentra habilitado un sendero de 1 km. siendo una ruta de fácil acceso, pudiendo efectuar una caminata de 1 hora a 1 hora y media. También se realizan actividades de kayak.',
-        accesos:'A la unidad se puede acceder sólo vía marítima desde Punta Arenas, Puerto Natales o Puerto Montt mediante viajes regulares por circuitos turísticos preestablecidos para la navegación que ofrecen diferentes agencias de viajes.',
-        fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://i3.visitchile.com/img/GalleryContent/8803/slider/Parque_Nacional_Cabo_de_Hornos.jpg',
     },
     {
         id:93,
@@ -1203,7 +1193,7 @@ const lugar = [
         servicios:'El Parque permite a sus visitantes apreciar un sorprendente entorno natural, compuesto de extensas penínsulas e islas fuertemente montañosas, cubiertas por campos de hielo. Además, es posible observar variadas especies de flora y fauna en el lugar. No existen instalaciones administrativas ni de uso público en esta unidad.',
         accesos:'A la unidad se puede acceder principalmente por vía marítima o bien vía aérea desde Punta Arenas, continuando vía marítima con empresas privadas al área de destino dentro del parque. Desde Punta Arenas con empresas que realizan viajes programados por circuitos turísticos preestablecidos para la navegación.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.gochile.cl/fotos/header/63240-pn-alberto-de-agostini-lluis-cabarrocas.jpg',
     },
     {
         id:94,
@@ -1216,7 +1206,7 @@ const lugar = [
         servicios:'El Parque Nacional Torres del Paine cuenta con servicios concesionados de alojamiento, camping, navegación, venta de alimentos, cabalgatas, artesanía.',
         accesos:'A la unidad se puede acceder por camino pavimentado de 250 kilómetros entre Punta Arenas y Puerto Natales y posteriormente 150 km por la Ruta 9 Norte. O bien, por el camino Y -290, conocido como Lago Porteño, ruta de 80 kilómetros que comunica a Puerto Natales con el parque. Otra vía de acceso importante la constituye el paso fronterizo Río Don Guillermo, ubicado en Villa Cerro Castillo, a 52 km de la portería Sarmiento.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.gochile.cl/fotos/full/64494-istock_000044328830_medium.jpg',
     },
     {
         id:95,
@@ -1229,7 +1219,7 @@ const lugar = [
         servicios:'En esta temporada, por condiciones climáticas la Reserva Nacional Magallanes estará habilitada sólo para trekking con los senderos Mirador Las Minas,Desde Administración y sendero Mirador las Minas, Sendero Mirador Guarda, Sendero los Ñirres (La pasarela) y Sendero Coigües. No se permite uso del fuego. Áreas de merienda cerradas también al público. En la Reserva no se permite acampar.',
         accesos:'A la unidad se puede acceder por la prolongación de la avenida Salvador Allende, con dirección al oeste de Punta Arenas. El camino se bifurca a la altura del estero Lynch, generando una vía orientada al sector Las Minas, donde se encuentra la Administración (Ruta Y-570); Sector de Bocatoma Cerrada',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://altosdelnorte.cl/wp-content/uploads/2021/05/reserva-nacional-magallanes.jpeg',
     },
     {
         id:96,
@@ -1242,7 +1232,7 @@ const lugar = [
         servicios:'En esta temporada 2021 la Reserva Nacional Laguna Parrillar se encuentra habilitada para senderismo, observación de la naturaleza. PRÁCTICA DEPORTIVA SE ENCUENTRA ABIERTA CON DEVOLUCIÓN. Con pernoctación. La Reserva Nacional Laguna Parrillar cuenta con senderos de excursión; sitios de merienda y áreas de acampar, los que están habilitados con cobertizos, fogones con techo, área con protección para la carpa y baños de uso público. Además, permite la práctica de pesca deportiva con devolución. Camping: $ 12.000 el sitio (24 horas). Picnic: $ 5.000 el sitio por día.',
         accesos:'A la unidad se puede acceder por la ruta que conduce al sur de la península de Brunswick por el borde costero del Estrecho de Magallanes. Se ubica a 53 kms. al sur de Punta Arenas por la ruta 56, desviándose a la derecha en el Retén de Carabineros Agua Fresca, ubicado en el km. 25. Desde ese punto a la entrada de la Reserva hay una distancia de 30 km. aproximadamente.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://i3.visitchile.com/img/GalleryContent/8811/slider/Reserva_Nacional_Laguna_Parrillar.jpg',
     },
     {
         id:97,
@@ -1255,7 +1245,7 @@ const lugar = [
         servicios:'La principal actividad factible de realizar es la navegación en embarcaciones mayores y menores por los canales interiores de la Reserva, disfrutando del singular paisaje y observando la abundante fauna marina y terrestre.',
         accesos:'Las características climáticas y las geográficas inciden en que esta Unidad sea poco visitada, la única forma de acceso es por vía marítima. A la unidad se puede acceder desde Punta Arenas, Puerto Natales o Puerto Montt por medio de viajes regulares de los circuitos turísticos preestablecidos para la navegación ofrecidas por algunas agencias, ya que no hay viajes regulares.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.gochile.cl/fotos/header/109571-0taj9fckhu6mzuypmfhtoyq3jinjoyoniznuzoko.jpg',
     },
     {
         id:98,
@@ -1268,7 +1258,7 @@ const lugar = [
         servicios:'La Unidad cuenta con presencia permanente de guardaparques, una sala de informaciones y museografía, habilitada en una casa faro declarada Monumento Nacional por su antigua data, baños públicos y un sendero que permite apreciar de cerca a estas aves.',
         accesos:'Puede ser visitado durante la temporada estival, entre octubre y mediados de abril, a través de embarcaciones turísticas que zarpan desde Punta Arenas.',
         fase:'Bajo impacto sanitario',
-        img: '',
+        img: 'https://www.ecured.cu/images/d/d6/Los-pinguinos.jpg',
     },
     {
         id:99,
@@ -1281,7 +1271,7 @@ const lugar = [
         servicios:'El Monumento Natural Laguna de los Cisnes, permite a sus visitantes apreciar el entorno natural que concentra una gran riqueza paisajística y arqueológica y la observación de fauna, principalmente aves (entre octubre y marzo de cada año, ya que es el período de reproducción). No existen instalaciones administrativas ni de uso público en el área.',
         accesos:'A la unidad se puede acceder por camino ripiado de 8 kilómetros que se mantiene en buen estado durante todo el año, y que bordea la costa del Estrecho de Magallanes.',
         fase:'Bajo impacto sanitario',
-        img:'',
+        img:'https://huellas.cl/wp-content/uploads/rnlagunalosciesnes_estromatolitos_conaf.jpg',
     },
     {
         id:100,
@@ -1294,6 +1284,7 @@ const lugar = [
         servicios:'Abierto con restricción de aforo (640 personas) lunes a domingo de 8:00 a 18:00 hrs. Sectores disponibles: Caverna principal, Cueva Chica, Mirador, Cueva del Medio, Plaza Megafauna.. Se solicita comprar entrada por www.aspticket.cl El Monumento Natural Cueva del Milodón cuenta con un Centro de Información Ambiental, servicios higiénicos, áreas de merienda en diferentes sectores de la Unidad, senderos y venta de recuerdos y snacks.',
         accesos:'A la unidad se puede acceder siguiendo la Ruta 9 Norte (Puerto Natales-Bories) por 17 km desde la ciudad de Puerto Natales, hasta llegar a la bifurcación Milodón-Cerro Castillo, desde este punto se recorren 8 km de la Ruta Y-290 que finaliza en el estacionamiento y portería del Monumento Natural. O bien por la ruta que une Puerto Prat y Puerto Consuelo.',
         fase:'Bajo impacto sanitario',
+        img:'https://filmcommissionchile.org/wp-content/uploads/2021/04/Monumento-Natural-Cueva-del-Milodon.png'
     },
 ]
 

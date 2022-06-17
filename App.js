@@ -78,7 +78,7 @@ function MyTabs() {
             }}
             />
             <Tab.Screen 
-            name = 'MapScreen' 
+            name = 'Mapa' 
             component={MapScreen} 
             options={{
               headerShown:false,

@@ -45,7 +45,7 @@ const Inicio = ({navigation}) => {
                                                 key={places}
                                                 style={styles.nombreLugar}
                                                 >
-                                                    ►{places}
+                                                    ► {places}
                                                 </Text>
                                             </TouchableOpacity>
                                             ))}
@@ -90,6 +90,7 @@ const styles = StyleSheet.create({
         color:'#5B4D4D',
         marginHorizontal: 5,
         letterSpacing: 1,
+        paddingLeft:5,
         marginVertical: 5,
         fontWeight:'bold',
     },

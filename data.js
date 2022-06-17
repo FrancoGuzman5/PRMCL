@@ -63,7 +63,7 @@ export default [
         bg: '#1ABC9C',
         color: 'white',
         category: 'Region de Valparaíso',
-        places: ['Parque Nacional La Campana','Parque Nacional Archipiélago Juan Fernández','Parque Nacional Rapa Nui','Reserva Nacional Lago Peñuelas','Reserva Nacional El Yali', 'Reserva Nacional Río Blanco','Monumento Natural Isla Cachagua', 'Santuario de la naturaleza Laguna El Peral'],
+        places: ['Parque Nacional La Campana','Parque Nacional Archipiélago Juan Fernández','Parque Nacional Rapa Nui','Reserva Nacional Lago Peñuelas','Reserva Nacional El Yali', 'Reserva Nacional Río Blanco','Monumento Natural Isla Cachagua', 'Santuario de la Naturaleza Laguna El Peral'],
         location: {
             longitude: -33.04040400203459, 
             latitude: -71.44978472242867
@@ -173,7 +173,7 @@ export default [
         bg: '#148F77',
         color: 'white',
         category: 'Region de Magallanes',
-        places: ['Parque Nacional Pali Aike','Parque Nacional Cabo de Hornos',"Parque Nacional Bernardo O'Higgins",'Parque Nacional Alberto de Agostini','Parque Nacional Torres del Paine','Reserva Nacional Magallanes', 'Reserva Nacional Laguna Parrillar', 'Reserva Nacional Alacalufes','Monumento Natural Los Pingüinos','Monumento Natural Laguna de los Cisnes','Monumento Natural Cueva del Milodón'],
+        places: ['Parque Nacional Pali Aike','Parque Nacional Cabo de Hornos','Parque Nacional Alberto de Agostini','Parque Nacional Torres del Paine','Reserva Nacional Magallanes', 'Reserva Nacional Laguna Parrillar', 'Reserva Nacional Alacalufes','Monumento Natural Los Pingüinos','Monumento Natural Laguna de los Cisnes','Monumento Natural Cueva del Milodón'],
         location: {
             longitude: -52.377950786231956, 
             latitude: -71.82560438016822
