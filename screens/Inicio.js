@@ -69,21 +69,24 @@ const Lugares = ({item}) => {
 
 const styles = StyleSheet.create({
     container:{
-        flex:1,
+        flexGrow:1,
         justifyContent: 'center',
     },
     cardContainer:{
         flexGrow:1,
+        
         marginTop:2,
         marginBottom: 2,
     },
     card:{
         flex: 1,
+        paddingVertical:4,
     },
     region: {
         fontSize: 28,
         fontWeight: '900',
         letterSpacing: -2.0,
+        paddingVertical: 5,
         marginHorizontal: 5,
     },
     nombreLugar:{

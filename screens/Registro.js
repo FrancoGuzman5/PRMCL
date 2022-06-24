@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext, useState, useEffect} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet, Button, ScrollView, TextInput, Image, ActivityIndicator, Alert} from 'react-native';
 import { ImageBackground } from 'react-native';
 import {auth} from '../database/firebase'
@@ -11,6 +11,8 @@ const Registro = (props) => {
     const [rePassword, setRePassword] = useState('')
     const [isSecure, setIsSecure] = useState(true)
     const [isSecureSec, setIsSecureSec] = useState(true)
+
+    
 
     const handleSignUp = () =>{
         var emailValido = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
@@ -32,7 +34,7 @@ const Registro = (props) => {
             .createUserWithEmailAndPassword(email,password)
             .then({props},userCredentials => {
                 const user = userCredentials.user;
-                props.navigation.navigate('Login')
+                props.navigation.replace('Login')
             })
             .catch(error => alert(error.message))
         }

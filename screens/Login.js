@@ -1,6 +1,6 @@
 import { color } from '@rneui/base';
 import React, {useContext, useEffect, useState} from 'react';
-import {View, Text, TouchableOpacity, StyleSheet, Button, ScrollView, TextInput, Image, ActivityIndicator} from 'react-native';
+import {View, Text, TouchableOpacity, StyleSheet, Button, ScrollView, TextInput, Image, ActivityIndicator, Alert} from 'react-native';
 import { ImageBackground } from 'react-native';
 import { KeyboardAvoidingView } from 'react-native';
 import firebase, { auth } from '../database/firebase';
@@ -27,14 +27,20 @@ const Login = (props) => {
 
 
     const handleLogin = () => {
-        auth
-        .signInWithEmailAndPassword(email,password)
-        .then(userCredentials => {
-            props.navigation.replace('Inicio')
-            const user = userCredentials.user;
-            console.log('Logeado con ', user.email);
-        })
-        .catch(error => alert(error.message))
+        if(email.length == 0 || email === null){
+            Alert.alert('Ingresa un email','No se ha detectado ningun correo electrónico')
+        }else if(password.length == 0 || password === null){
+            Alert.alert('Ingrese su contraseña','No se ha detectado ninguna contraseña')
+        }else{
+            auth
+            .signInWithEmailAndPassword(email,password)
+            .then(userCredentials => {
+                props.navigation.replace('Inicio')
+                const user = userCredentials.user;
+                console.log('Logeado con ', user.email);
+            })
+            .catch(error => alert(error.message))
+        }
     }
 
     return (
